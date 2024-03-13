@@ -1,0 +1,263 @@
+@import "./custom/file-header.css";
+@import "./custom/fonts.css";
+@import "tailwindcss/base";
+@import "./custom/base.css";
+@import "tailwindcss/components";
+@import-glob "./custom/components/**/!(components).css";
+@import "./custom/components/components.css";
+@import "tailwindcss/utilities";
+@import "./custom/utilities.css";
+
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+}
+
+
+
+@layer base {
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6, 
+  p {
+    @apply mb-7.5;
+  }
+}
+
+
+
+@layer base {
+  .prose h1,
+  h1 {
+    @apply 
+    font-teodor
+    tracking-tightest
+    leading-none
+    lg:border-none
+    lg:bg-transparent
+    lg:text-75xl
+    text-6xl 
+  }
+  
+  .prose h2,
+  h2 {
+    @apply 
+    leading-none 
+    text-4xl 
+    lg:text-6xl;
+  }
+  
+
+  .prose h3,
+  h3 {
+    @apply 
+    leading-none
+    font-normal
+    text-4xl 
+    lg:text-5xl 
+    font-teodor;
+  }
+
+  .prose h4,
+  h4 {
+    @apply 
+    leading-tight
+    text-3xl 
+    md:text-4xl;
+  }
+
+
+  .prose h5,
+  h5 {
+    @apply 
+    text-3xl 
+    leading-tight
+  }
+
+  .prose h6,
+  h6 {
+    @apply 
+    uppercase
+    tracking-wider
+    text-sm 
+    md:text-sm;
+  }
+
+  .prose p,
+  p {
+    @apply
+    leading-relaxed 
+    text-sm 
+    md:text-base;
+  }
+
+  ul, ol {
+    @apply 
+    text-xs 
+    text-base
+    ;
+  }
+
+  li {
+    @apply 
+    text-sm 
+    md:text-base
+    ;
+  }
+}
+
+
+@layer components {
+  .btn {
+    @apply 
+    content-center 
+    justify-center
+    inline-flex
+    items-center 
+    tracking-wider
+    uppercase
+    px-6 
+    py-5 
+    md:px-8 
+    md:py-5 
+    text-gray100 
+    font-normal
+    leading-none 
+    rounded-full
+    border
+    text-sm
+    transition 
+    duration-300
+    text-center 
+    ease-in-out 
+
+    ;
+  }
+
+  .btn-teal {
+    @apply
+    border-teal
+    hover:text-gray100 
+    bg-teal
+    border-teal 
+    hover:bg-cream
+    hover:border-teal
+    ;
+  }
+
+
+
+  .btn-cream {
+    @apply
+    border-gray80
+    hover:text-gray100 
+    bg-cream
+    hover:bg-teal
+    hover:border-teal
+    ;
+  }
+
+
+
+  .btn-darkTeal {
+    @apply 
+    bg-darkTeal
+    hover:bg-teal
+    hover:border-teal 
+    ;
+
+  }
+
+
+
+  .btn_sales {
+    @apply 
+    cursor-pointer 
+    content-center 
+    justify-center
+    inline-flex
+    items-center 
+    tracking-wider
+    whitespace-nowrap
+    text-[12px]
+    md:text-3xl
+    px-4 
+    py-3 
+    lg:px-5 
+    lg:py-4 
+    bg-transparent 
+    text-offWhite 
+    font-normal
+    leading-none 
+    rounded-full
+    border
+    text-center
+    hover:bg-teal 
+    hover:border-teal
+    hover:text-black
+    ease-in-out
+    duration-500
+    ;
+  }
+
+
+
+  .strong-black strong {
+    @apply text-black; /* This applies the Tailwind 'text-black' class */
+  }
+
+}
+
+
+
+
+@layer components {
+  .custom-gradient-bg {
+    @apply flex justify-center items-center m-1 rounded-full;
+    background-image: linear-gradient(to right, #A9D6C4, #DAC89A);
+  }
+  .custom-button {
+    @apply text-[36px] py-2 px-4 bg-white text-lg text-gray-800 rounded-full w-full h-full focus:outline-none focus:ring focus:ring-green-500;
+  }
+}
+
+
+
+@layer components {
+  /* Define a component that shows the current breakpoint */
+  .breakpoint-indicator {
+    @apply fixed bottom-0 right-0 z-50 p-5 text-lg bg-gray-900 text-white;
+  }
+
+  /* Define how the content changes at each breakpoint */
+  @media (min-width: theme('screens.sm')) {
+    .breakpoint-indicator::after {
+      content: 'SM';
+    }
+  }
+  @media (min-width: theme('screens.md')) {
+    .breakpoint-indicator::after {
+      content: 'MD';
+    }
+  }
+  @media (min-width: theme('screens.lg')) {
+    .breakpoint-indicator::after {
+      content: 'LG';
+    }
+  }
+  @media (min-width: theme('screens.xl')) {
+    .breakpoint-indicator::after {
+      content: 'XL';
+    }
+  }
+  @media (min-width: theme('screens.2xl')) {
+    .breakpoint-indicator::after {
+      content: '2XL';
+    }
+  }
+}
