@@ -1,3 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+@layer base {
+	h1, 
+	h2, 
+	h3, 
+	h4, 
+	h5, 
+	h6, 
+	p {
+
+	}
+
+
+	h1 {
+		@apply 
+		text-6xl
+		font-interstate
+		tracking-tight
+		leading-none
+		; 
+	}
+
+	h2 {
+		@apply 
+		text-5xl; 
+	}
+
+	p {
+		@apply 
+		text-stone-500
+		text-base; 
+
+	}
+
+}
+
+
+@layer components {
+	.btn {
+		@apply 
+		bg-neutral-800 
+		text-stone-100
+		p-4 
+		font-bold
+		border-2
+		border-neutral-800
+		rounded-md 
+		justify-center 
+		items-center 
+		inline-flex
+		leading-none 
+		rounded-md
+		text-sm
+		transition 
+		duration-300
+		ease-in-out 
+		cursor-pointer
+		;
+	}
+
+	.btn {
+		@apply
+		hover:border-stone-300
+		hover:bg-white
+		hover:text-neutral-800;
+		;
+	}
+
+
+}
+
+
+
+
+@layer components {
+	/* Define a component that shows the current breakpoint */
+	.breakpoint-indicator {
+		@apply fixed bottom-0 right-0 z-50 p-5 text-lg bg-gray-900 text-white;
+	}
+
+	/* Define how the content changes at each breakpoint */
+	@media (min-width: theme('screens.sm')) {
+		.breakpoint-indicator::after {
+			content: 'SM';
+		}
+	}
+	@media (min-width: theme('screens.md')) {
+		.breakpoint-indicator::after {
+			content: 'MD';
+		}
+	}
+	@media (min-width: theme('screens.lg')) {
+		.breakpoint-indicator::after {
+			content: 'LG';
+		}
+	}
+	@media (min-width: theme('screens.xl')) {
+		.breakpoint-indicator::after {
+			content: 'XL';
+		}
+	}
+	@media (min-width: theme('screens.2xl')) {
+		.breakpoint-indicator::after {
+			content: '2XL';
+		}
+	}
+}
+
+
