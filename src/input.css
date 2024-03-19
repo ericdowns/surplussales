@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+@layer base {
+	html {
+		@apply antialiased;
+	}
+}
+
 
 
 @layer base {
@@ -42,6 +48,7 @@
 
 
 @layer components {
+	
 	.btn {
 		@apply 
 		bg-neutral-800 
@@ -71,6 +78,44 @@
 		hover:text-neutral-800;
 		;
 	}
+
+
+
+	.btn_small {
+		@apply 
+		px-2.5 
+		py-1.5 
+		rounded 
+		border 
+		border-stone-500 
+		border-2
+		justify-center 
+		items-center 
+		text-stone-100 
+		lg:text-base
+		text-sm 
+		leading-tight 
+		font-medium
+		transition 
+		duration-300
+		ease-in-out 
+		hover:bg-stone-500;
+
+	}
+
+
+	.easy {
+		@apply
+		duration-300
+		ease-in-out 
+		hover:duration-300
+		hover:ease-in-out 
+		cursor-pointer
+
+		;
+	}
+
+
 
 
 }
