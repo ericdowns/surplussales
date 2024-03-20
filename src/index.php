@@ -28,15 +28,15 @@
         <ul class="flex flex-col space-y-1 text-3xl lg:text-3xl font-bold">
 
             <li><a href="/home.php">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Support</a></li>
-            <li><a href="/">FAQs</a></li>
-            <li><a href="/">Login</a></li>
-            <li><a href="/">Register</a></li>
-            <li><a href="/">General Page</a></li>
+            <li><a href="/about.php">About</a></li>
+            <li><a href="/support.php">Support</a></li>
+            <li><a href="/faqs.php">FAQs</a></li>
+            <li><a href="/login.php">Login</a></li>
+            <li><a href="/register.php">Register</a></li>
+            <li><a href="/general.php">General Page</a></li>
             <li><a href="/">All Categories</a></li>
             <li><a href="/">A-Z Listing</a></li>
-            <li><a href="/">All Categories » Resistors</a></li>
+            <li><a href="/resistors.php">All Categories » Resistors</a></li>
             <li><a href="/">All Categories » Carbon Composition Resistors</a></li>
             <li><a href="/">Product Display - Table</a></li>
             <li><a href="/">Product Display - Table | Filtered View</a></li>

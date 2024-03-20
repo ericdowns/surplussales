@@ -12,7 +12,6 @@
 
 
 
-<div class="breakpoint-indicator"></div>
 <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
 
@@ -22,14 +21,16 @@
 <body class="bg-cream">
 
 
-
     <div class="w-full mx-auto px-5p py-14 bg-black border-t border-stone-500">
-        <div class="text-center lg:text-left max-w-2xl">
+        <div class="text-center lg:text-left max-w-4xl">
             <h1 class="text-stone-100 uppercase leading-12">Where the hard-to-find parts are found...and on hand</h1>
         </div>
     </div>
-    <img src="./imgs/about_hero.jpg" class="block lg:m-h-56 m-h-20 w-full scale-100 object-cover object-center" alt="" />
-    <div class="w-full mx-auto px-5p py-20 grid gap-8  xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 bg-cream border-t border-stone-500 [&_*]:border ">
+
+    <img src="./imgs/about_hero.jpg" class="block h-[630px] w-full object-cover object-center" alt="" />
+
+
+    <div class="w-full mx-auto px-5p py-20 grid gap-8  xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 bg-cream  ">
         <div>
            <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10">36M</div>
            <p class="text-center text-stone-500 text-lg font-medium leading-normal">Orders fulfilled since 1975!</p>

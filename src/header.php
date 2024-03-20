@@ -29,7 +29,7 @@
 
 
     <div class="flex justify-between header_inner p-6">
-        <div> <img src="./imgs/logo.svg"> </div>
+        <a href="/"> <img src="./imgs/logo.svg"> </a>
 
 
 

@@ -37,9 +37,32 @@
 		text-5xl; 
 	}
 
+	h4 {
+		@apply 
+		text-black 
+		text-xl 
+		font-bold 
+		leading-7
+		; 
+	}
+
+
+	h5 {
+		@apply 
+		text-stone-900
+		text-xl
+		font-bold
+		leading-normal
+		; 
+	}
+
+
+
+
 	p {
 		@apply 
 		text-stone-500
+		leading-normal
 		text-base; 
 
 	}
