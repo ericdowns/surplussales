@@ -83,19 +83,19 @@
 
       <div class="flex flex-col justify-center items-center">
         <div class="text-center text-stone-100 text-base font-bold font-interstate uppercase leading-snug">
-         <a href="/"> Support </a>
-         <a href="/"> Register </a>
-         <a href="/"> Login </a>
-     </div>              
- </div>
+           <a href="/"> Support </a>
+           <a href="/"> Register </a>
+           <a href="/"> Login </a>
+       </div>              
+   </div>
 
 
- <div class="flex flex-col justify-center items-center">
+   <div class="flex flex-col justify-center items-center">
     <div class="text-center text-stone-100 text-base font-bold font-interstate uppercase leading-snug">
-     <a href="/"> Support </a>
-     <a href="/"> Register </a>
-     <a href="/"> Login </a>
- </div>              
+       <a href="/"> Support </a>
+       <a href="/"> Register </a>
+       <a href="/"> Login </a>
+   </div>              
 </div>
 
 

@@ -5,8 +5,8 @@
 
     <div class="flex flex-col w-full gap-6">
 
-     <img class="object-contain" src="./imgs/category-abrassives.jpg">
-     <div class="flex-col flex">
+       <img class="object-contain" src="./imgs/category-abrassives.jpg">
+       <div class="flex-col flex">
         <p class="text-neutral-800 text-lg font-bold pb-4">  Carbon Composition Resistors - 1/8 watt (RCR)</p>
         <div class="text-sm leading-tight _space-y-1">
             <p class="text-black"> <span class="text-stone-500"> Part #:</span> (RCF) RCR05G3R0J</p>
