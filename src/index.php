@@ -35,10 +35,10 @@
             <li><a href="/register.php">Register</a></li>
             <li><a href="/general.php">General Page</a></li>
             <li><a href="/">All Categories</a></li>
-            <li><a href="/">A-Z Listing</a></li>
+            <li><a href="/az-categories.php">A-Z Listing</a></li>
             <li><a href="/resistors.php">All Categories » Resistors</a></li>
-            <li><a href="/">All Categories » Carbon Composition Resistors</a></li>
-            <li><a href="/">Product Display - Table</a></li>
+            <li><a href="/resistors-carbon-composition-resistors.php">All Categories » Carbon Composition Resistors</a></li>
+            <li><a href="/product-display-table.php">Product Display - Table</a></li>
             <li><a href="/">Product Display - Table | Filtered View</a></li>
             <li><a href="/">Product Single</a></li>
             <li><a href="/">Checkout Cart | Empty</a></li>
