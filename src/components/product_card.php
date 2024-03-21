@@ -18,11 +18,12 @@
         </div>
     </div>
     <div class="flex gap-6 items-center">
-        <div class="flex gap-2">
-            <div class="w-10 h-7 rounded-sm border border-neutral-400"></div>
-            <div class="">Qty</div>
+        <div class="flex gap-2 items-center">
+            <input type="number" class="w-auto max-w-[45px] pr-0 h-8 rounded-sm border border-neutral-400  text-left hover:text-black focus:text-black" name="custom-input-number" value="1"></input>
+            <div class="text-stone-500">Qty</div>
         </div>
-        <div class="btn">Add to Cart</div>
+
+        <a class="btn_add_cart_sm" href="/">Add to Cart</a>
     </div>
 </div>
 </div>

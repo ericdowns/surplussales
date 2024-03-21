@@ -47,6 +47,13 @@
                     <div class="w-full px-20 py-3.5 bg-neutral-800 rounded-md justify-center items-center gap-2.5 inline-flex">
                         <div class="text-white text-lg font-bold whitespace-nowrap">Add to Cart</div>
                     </div>
+
+                    <a href="/" class="btn_add_cart">
+                        Add to Cart
+                    </a>
+
+
+
                     <div class="flex gap-4 items-start">
                         <img class="pt-1 w-[22px] block" src="./imgs/icon_shipping_box.svg"> 
                         <p class="font-medium leading-[19px]">

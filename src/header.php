@@ -8,7 +8,7 @@
         <div class="flex text-stone-100 text-sm items-center"> 
 
             <div class="flex items-center leading-tight gap-6 _*mr-6">
-                <p class="text-sm text-stone-100 flex items-center"> <span class="mr-2 w-2 h-2 flex bg-amber-400 rounded-full"></span> FREE Ground Shipping! On orders over $100</p> 
+                <p class="text-sm text-stone-100 flex items-center"> <span class="mr-2 w-2 h-2 flex bg-amber-400 rounded-full"></span> FREE Ground Shipping! On orders over $100 <i class="flex text-[9px] inline-flex justify-center items-center border border-blue border-2 text-blue rounded-full w-[17px] h-[17px] fa-sharp fa-solid fa-info"></i></p> 
                 <p class="flex items-center"><a class="text-sm text-stone-100" href="/">help@surplussales.com</a></p>
                 <p class="text-sm text-stone-100">(402) 346-4750</p> 
             </div>

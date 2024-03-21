@@ -40,7 +40,7 @@
             <li><a href="/resistors-carbon-composition-resistors.php">All Categories » Carbon Composition Resistors</a></li>
             <li><a href="/product-display-table.php">Product Display - Table</a></li>
             <li><a href="/">Product Display - Table | Filtered View</a></li>
-            <li><a href="/">Product Single</a></li>
+            <li><a href="/product-single.php">Product Single</a></li>
             <li><a href="/">Checkout Cart | Empty</a></li>
             <li><a href="/">Checkout Cart | Full</a></li>
             <li><a href="/">Checkout Billing & Shipping </a></li>

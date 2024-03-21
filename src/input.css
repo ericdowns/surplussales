@@ -103,6 +103,66 @@
 	}
 
 
+	.btn_add_cart {
+		@apply
+		w-full 
+		px-20 
+		py-3.5 
+		bg-neutral-800 
+		border-2
+		border-neutral-800
+		rounded-md 
+		justify-center 
+		items-center 
+		inline-flex
+		hover:bg-cream
+		hover:text-neutral-800
+		hover:border-2
+		hover:border-neutral-800
+		text-white 
+		text-lg 
+		font-bold 
+		whitespace-nowrap
+		duration-300
+		ease-in-out 
+		hover:duration-300
+		hover:ease-in-out 
+		cursor-pointer
+		;
+	}
+
+
+
+	.btn_add_cart_sm {
+		@apply
+		w-28 h-10 
+		px-3.5 
+		py-2.5 
+		bg-neutral-800 
+		rounded-md 
+		justify-center 
+		items-center 
+		gap-2.5 
+		inline-flex
+		hover:bg-white
+		hover:text-neutral-800
+		hover:border-2
+		hover:border-neutral-800
+		text-white 
+		text-base 
+		font-bold 
+		whitespace-nowrap
+		duration-300
+		ease-in-out 
+		hover:duration-300
+		hover:ease-in-out 
+		cursor-pointer
+		;
+	}
+
+
+
+
 
 	.btn_small {
 		@apply 
