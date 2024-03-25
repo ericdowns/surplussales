@@ -60,6 +60,10 @@ module.exports = {
       paddingLeft: {
         '5p': '5%',  // pl-5p
       },
+
+
+
+      
     },
   },
 

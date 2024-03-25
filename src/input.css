@@ -57,8 +57,6 @@
 	}
 
 
-
-
 	p {
 		@apply 
 		text-stone-500
@@ -66,6 +64,25 @@
 		text-base; 
 
 	}
+
+
+	/*special classes*/
+
+	footer a:hover {
+		@apply 
+		text-neutral-400
+		transition 
+		duration-500
+		ease-in-out 
+		cursor-pointer;
+	}
+
+
+
+
+
+
+
 
 }
 
@@ -103,10 +120,12 @@
 	}
 
 
+
+
 	.btn_add_cart {
 		@apply
 		w-full 
-		px-20 
+		px-5 
 		py-3.5 
 		bg-neutral-800 
 		border-2
@@ -135,7 +154,8 @@
 
 	.btn_add_cart_sm {
 		@apply
-		w-28 h-10 
+		w-28 
+		h-10 
 		px-3.5 
 		py-2.5 
 		bg-neutral-800 
