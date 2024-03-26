@@ -12,14 +12,11 @@
 
 <body class="bg-cream">
     <div class="breakpoint-indicator"></div>
-    <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style>
     <?php include './header.php'; ?>
 
 
     <div class="flex w-full mx-auto flex-col lg:flex-row px-5p py-20 gap-8">
-
-
-        <div class="flex gap-8 bg-red flex lg:w-[30%] w-full">
+        <div class="flex gap-8 flex lg:w-[30%] w-full">
             <div class="flex w-full flex-col gap-3">
                 <div class="border flex w-full">
                  <img class="w-full h-auto block" src="./imgs/table_img.png"> 
@@ -29,9 +26,6 @@
                 <img class="w-[72px] h-auto block" src="./imgs/table_img.png"> 
             </div>
         </div>
-
-
-
     </div>
 
     <div class="w-full gap-8 flex xl:w-[70%] lg:w-[70%] md:w-full lg:flex-row flex-col">
@@ -71,9 +65,8 @@
                         <div class="flex items-center gap-2">
                             <div class="text-neutral-800 text-2xl font-bold font-interstate uppercase leading-normal">$1.40</div> <p>/ each</p>
                         </div>
-                        <div class="flex items-center gap-2 py-4">
-                            <input type="number" class="w-auto max-w-[45px] pr-0 h-9 rounded-sm border border-neutral-400  text-left hover:text-black focus:text-black" name="custom-input-number" value="1"></input>
-                            <p class="text-stone-500 text-lg font-medium font-['Articulat CF'] leading-normal">Qty</p>
+                        <div class="flex items-center gap-2 py-4 justify-start">
+                            <input type="number" class="w-auto max-w-[60px] inputstyle" name="custom-input-number" value="1"></input> <p class="text-stone-500 text-lg font-medium font-['Articulat CF'] leading-normal">Qty</p>
                         </div>
                         <a href="/" class="btn_add_cart"> Add to Cart </a>
                         <div class="flex gap-4 items-start pt-4">

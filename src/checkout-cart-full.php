@@ -48,25 +48,35 @@
                     </div>
                 </div>
                 <?php for ($i = 0; $i < 4; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/product_cart_row.php'; } ?>
+
+
+                <div class="py-5">
+                    <label class="font-medium">Coupon Code</label>
+                    <input type="text" class="inputstyle w-64"> </input>
+                    <a class="btn_add_cart_sm hover:bg-cream" href="/">Apply</a>
+                </div>
+
+
+
             </div>
 
 
             <div class="lg:w-[35%] w-full">
-             <div class="w-full mx-auto pb-4">
-                <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Summary</h6>
+                <div class="w-full mx-auto pb-4">
+                    <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Summary</h6>
+                </div>
+
+
+                <?php include './components/summary_card.php'; ?>
+
+
             </div>
-
-
-            <?php include './components/summary_card.php'; ?>
-
-
         </div>
-    </div>
 
-</div> <!-- page_wrapper -->
-
+    </div> <!-- page_wrapper -->
 
 
-<?php include './footer.php'; ?>
+
+    <?php include './footer.php'; ?>
 </body>
 </html>

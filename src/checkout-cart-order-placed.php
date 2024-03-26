@@ -19,16 +19,11 @@
 
 
     <div class="page_wrapper w-full mx-auto px-5p py-14 pb-56">
-
-
         <div class="flex lg:flex-row flex-col gap-10">
-
             <div class="lg:w-[65%] w-full">
-
                 <div class="w-full mx-auto pb-4">
                     <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Your order was placed successfully.</h6>
                 </div>
-
                 <div class="confirmation_text w-full">
                     <div class="pb-6 mb-6 border-b border-neutral-400">
                         <p class="text-zinc-800 text-lg font-bold mb-3">Check your email for your order confirmation.</p> 
@@ -58,29 +53,17 @@
                             Payment Method: Secure Credit/Debit Card
                         </p>
                     </div>
-
                     <a href="/" class="px-20 py-3.5 border-neutral-800 border-2 rounded-md justify-center items-center inline-flex hover:bg-neutral-800 hover:text-cream hover:border-2 hover:border-neutral-800 text-neutral-800 text-lg font-bold whitespace-nowrap duration-300 ease-in-out hover:duration-300 hover:ease-in-out cursor-pointer">
                     Print Order Confirmation </a>
-
                 </div>
-
             </div>
-
-
-
-
             <div class="lg:w-[35%] w-full">
                <div class="w-full mx-auto pb-4">
                 <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Summary</h6>
             </div>
-
-
-            <?php include './components/summary_card.php'; ?>
-
-
+            <?php include './components/summary_card_order_placed.php'; ?>
         </div>
     </div>
-
 </div> <!-- page_wrapper -->
 
 

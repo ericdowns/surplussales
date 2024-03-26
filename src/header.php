@@ -17,12 +17,12 @@
 
 
         <div class="flex text-stone-100 text-sm font-medium gap-6 [&>*:hover]:easy hover:*:text-amber-400 "> 
-            <a href="/">About</a>  
-            <a href="/">FAQ</a> 
-            <a href="/">Support</a> 
-            <a href="/">Register</a>  
+            <a href="/about.php">About</a>  
+            <a href="/faqs.php">FAQ</a> 
+            <a href="/support.php">Support</a> 
+            <a href="/register.php">Register</a>  
             <a href="/">Michael</a> 
-            <a href="/">Login</a> 
+            <a href="/login.php">Login</a> 
         </div>
 
     </div>
@@ -63,7 +63,7 @@
         </div>
 
 
-        <a href="/" class="flex cart items-center group">
+        <a href="/checkout-cart-full.php" class="flex cart items-center group">
             <p class="text-stone-100 text-lg font-bold mr-2 group-hover:ease-linear group-hover:duration-500 group-hover:text-yellow">Cart</p>
             <div class="relative cart-icon cursor-pointer">
                 <svg class="h-6 w-auto fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"/>

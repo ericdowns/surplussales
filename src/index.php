@@ -25,7 +25,9 @@
     <div class="w-full mx-auto px-5p py-14 pb-20">
         <h1 class="uppercase mb-2 border-red border-b pb-5">Surplus Sales Site Build</h1>
         
-        <ul class="flex flex-col space-y-1 text-3xl lg:text-3xl font-bold">
+        <ul class="flex flex-col space-y-1 text-1xl lg:text-1xl font-bold">
+
+
 
             <li><a href="/home.php">Home</a></li>
             <li><a href="/about.php">About</a></li>
@@ -39,14 +41,10 @@
             <li><a href="/resistors.php">All Categories » Resistors</a></li>
             <li><a href="/resistors-carbon-composition-resistors.php">All Categories » Carbon Composition Resistors</a></li>
             <li><a href="/product-display-table.php">Product Display - Table</a></li>
-            <li><a href="/">Product Display - Table | Filtered View</a></li>
             <li><a href="/product-single.php">Product Single</a></li>
             <li><a href="/checkout-cart-empty.php">Checkout Cart | Empty</a></li>
             <li><a href="/checkout-cart-full.php">Checkout Cart | Full</a></li>
             <li><a href="/checkout-cart-order-placed.php">Checkout Order Placed</a></li>
-
-
-            <li><a href="/checkout-billing-shipping.php">Checkout Billing & Shipping </a></li>
             <li><a href="/components.php">Components</a></li>
 
         </ul>

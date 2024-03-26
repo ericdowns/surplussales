@@ -35,14 +35,112 @@
 
         </div>
 
-        <div class="lg:col-span-8 col-span-1 border border-slate-300 flex justify-center items-center text-center bg-white min-h-[500px]">
-            <p class="font-bold text-black">Form goes here</p>
-        </div>
+        <div class="lg:col-span-8 col-span-1 flex-col flex min-h-[500px]">
+           
+         <div class="form_wrapper flex flex-col gap-8">
+            <!-- Name -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-1/2">
+                    <label class="labelstyle"> First Name</label>
+                    <input class="inputstyle h-16" id="grid-first-name" type="text">
+                </div>
+                <div class="flex flex-col w-1/2">
+                    <label class="labelstyle"> First Name</label>
+                    <input class="inputstyle h-16" id="grid-first-name" type="text">
+                </div>
+            </div>
+            <!-- Email -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> Email Address</label>
+                    <input class="inputstyle h-16" type="text">
+                </div>
+            </div>
+            <!-- City / State / Zip -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-1/3">
+                    <label class="labelstyle"> City</label>
+                    <input class="inputstyle h-16" type="text">
+                </div>
+                <div class="flex flex-col w-1/3">
+                    <label class="labelstyle"> State </label>
+                    <select class="inputstyle w-full h-16">
+                        <option>Select State</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                </div>
+                <div class="flex flex-col w-1/3">
+                    <label class="labelstyle"> Zip</label>
+                    <input class="inputstyle h-16" type="text">
+                </div>
+            </div>
+            <!-- County -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> County</label>
+                    <select class="inputstyle w-full h-16">
+                        <option>Select County</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                </div>
+            </div>
+            <!-- Address Line 1 -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> Address Line 1</label>
+                    <input class="inputstyle h-16" type="text" placeholder="">
+                </div>
+            </div>
+            <!-- Address Line 2 -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> Address Line 2</label>
+                    <input class="inputstyle h-16" type="text" placeholder="">
+                </div>
+            </div>
+            <!-- Username -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> Username</label>
+                    <input class="inputstyle h-16" type="text" placeholder="">
+                </div>
+            </div>
+            <!-- Password -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> Password</label>
+                    <input class="inputstyle h-16" type="text" placeholder="">
+                </div>
+            </div>
+            <!-- Password Verification -->
+            <div class="flex w-full gap-3">
+                <div class="flex flex-col w-full">
+                    <label class="labelstyle"> Password Verification</label>
+                    <input class="inputstyle h-16" type="text" placeholder="">
+                </div>
+            </div>
+            <button class="btn_add_cart w-72">Submit</button>
+        </div> <!-- lg:col-span-8 -->
 
     </div>
 
+    
+</div>
+
+</div>
 
 
-    <?php include './footer.php'; ?>
+
+<?php include './footer.php'; ?>
 </body>
 </html>
