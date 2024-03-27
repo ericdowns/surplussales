@@ -26,7 +26,7 @@
   <div class="mx-5p lg:pt-16 pt-3 pb-6 _mb-6  border-b border-neutral-400">
     <div class="max-w-screen-lg">
         <h1 class="uppercase mb-5">A - Z Listing of Products</h1>
-        <p class="text-stone-500">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+        <p class="font-medium text-stone-500 text-lg">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
     </div>
 </div>
 

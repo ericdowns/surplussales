@@ -25,7 +25,8 @@
 
 	h1 {
 		@apply 
-		text-6xl
+		lg:text-5xl
+		text-4xl
 		font-interstate
 		tracking-tight
 		leading-none
@@ -159,6 +160,8 @@
 		px-3.5 
 		py-2.5 
 		bg-neutral-800 
+		border
+		border-neutral-800 
 		rounded-md 
 		justify-center 
 		items-center 
@@ -166,32 +169,26 @@
 		inline-flex
 		hover:bg-white
 		hover:text-neutral-800
-		hover:border-2
-		hover:border-neutral-800
 		text-white 
 		text-base 
 		font-bold 
 		whitespace-nowrap
-		duration-300
+		duration-100
 		ease-in-out 
-		hover:duration-300
+		hover:duration-100
 		hover:ease-in-out 
-		cursor-pointer
 		;
 	}
-
-
-
 
 
 	.btn_small {
 		@apply 
 		px-2.5 
 		py-1.5 
-		rounded 
+		rounded-md 
 		border 
-		border-stone-500 
-		border-2
+		border-white 
+		border
 		justify-center 
 		items-center 
 		text-stone-100 
@@ -253,7 +250,19 @@
 		leading-normal
 		mb-2
 		;
+	}
 
+
+
+	.searchitem {
+		@apply
+		hover:bg-cream 
+		flex 
+		w-full 
+		justify-between
+		py-2.5
+		px-4
+		;
 	}
 
 }

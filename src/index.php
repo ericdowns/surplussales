@@ -23,31 +23,66 @@
 
 
     <div class="w-full mx-auto px-5p py-14 pb-20">
-        <h1 class="uppercase mb-2 border-red border-b pb-5">Surplus Sales Site Build</h1>
+        <h1 class="uppercase pb-5 mb-10">Surplus Sales Site Build</h1>
         
-        <ul class="flex flex-col space-y-1 text-1xl lg:text-1xl font-bold">
+        <div class="grid grid-cols-3 gap-5 text-1xl lg:text-1xl font-bold">
+
+
+            <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
+                <h6 class="border-b border-neutral-400 pb-2 mb-2">Marketing Pages:</h6>
+                <a href="/home.php">Home</a>
+                <a href="/about.php">About</a>
+                <a href="/faqs.php">FAQs</a>
+                <a href="/general.php">General Page</a>
+
+            </div>
 
 
 
-            <li><a href="/home.php">Home</a></li>
-            <li><a href="/about.php">About</a></li>
-            <li><a href="/support.php">Support</a></li>
-            <li><a href="/faqs.php">FAQs</a></li>
-            <li><a href="/login.php">Login</a></li>
-            <li><a href="/register.php">Register</a></li>
-            <li><a href="/general.php">General Page</a></li>
-            <li><a href="/categories.php">All Categories</a></li>
-            <li><a href="/az-categories.php">A-Z Listing</a></li>
-            <li><a href="/resistors.php">All Categories » Resistors</a></li>
-            <li><a href="/resistors-carbon-composition-resistors.php">All Categories » Carbon Composition Resistors</a></li>
-            <li><a href="/product-display-table.php">Product Display - Table</a></li>
-            <li><a href="/product-single.php">Product Single</a></li>
-            <li><a href="/checkout-cart-empty.php">Checkout Cart | Empty</a></li>
-            <li><a href="/checkout-cart-full.php">Checkout Cart | Full</a></li>
-            <li><a href="/checkout-cart-order-placed.php">Checkout Order Placed</a></li>
-            <li><a href="/components.php">Components</a></li>
+            <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
+                <h6 class="border-b border-neutral-400 pb-2 mb-2">Categories Pages:</h6>
+                <a href="/login.php">Login</a>
+                <a href="/register.php">Register</a>
+                <a href="/support.php">Support</a>
 
-        </ul>
+            </div>
+
+
+            <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
+                <h6 class="border-b border-neutral-400 pb-2 mb-2">Categories Pages:</h6>
+                <a href="/categories.php">All Categories</a>
+                <a href="/az-categories.php">A-Z Listing</a>
+                <a href="/resistors.php">All Categories | Resistors</a>
+                <a href="/resistors-carbon-composition-resistors.php">All Categories | Carbon Composition Resistors</a>
+            </div>
+
+
+
+            <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
+                <h6 class="border-b border-neutral-400 pb-2 mb-2">Product Pages:</h6>
+                <a href="/product-single-resistor.php">Product Single | Carbon Composition Resistor </a>
+                <a href="/product-single-milwaukee.php">Product Single | Milwaukee Ribwound Assortment </a>
+                <a href="/product-display-table.php">Product Display - Table</a>
+            </div>
+
+
+
+            <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
+                <h6 class="border-b border-neutral-400 pb-2 mb-2">Cart Pages:</h6>
+                <a href="/checkout-cart-empty.php">Checkout Cart | Empty</a>
+                <a href="/checkout-cart-full.php">Checkout Cart | Full</a>
+                <a href="/checkout-cart-order-placed.php">Checkout Cart | Order Placed</a>
+            </div>
+
+            <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
+                <h6 class="border-b border-neutral-400 pb-2 mb-2">Misc Pages:</h6>
+                <a href="/components.php">Components</a>
+                <a href="/filter-slider-simple.php">Filter Slider Complex</a>
+            </div>
+
+
+
+        </div>
 
 
     </div>

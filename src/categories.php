@@ -22,16 +22,27 @@
 <body class="bg-cream">
 
 
-    <div class="w-full mx-auto px-5p py-14">
-        <h1 class="uppercase mb-2">All Product Categories</h1>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+    <div class="w-full px-5p max-w-screen-lg">
+        <div class="flex py-3 gap-x-3">       
+          <p> 
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Home</a> </p> | 
+            <p>All Categories</p>
+        </div>
     </div>
 
-    <div class="w-full mx-auto px-5p pb-20  grid gap-3  xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  grid-cols-1 ">
-        <?php for ($i = 0; $i < 24; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/category_card.php'; } ?>
-    </div>
+    <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6  border-b border-neutral-400">
+        <div class="max-w-screen-lg">
+            <h1 class="uppercase mb-5">All Product Categories</h1>
+            <p class="font-medium text-stone-500 text-lg">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>        
+        </div>
+        </div>
 
 
-    <?php include './footer.php'; ?>
-</body>
-</html>
+        <div class="w-full mx-auto px-5p pb-20  grid gap-3  xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  grid-cols-1 ">
+            <?php for ($i = 0; $i < 24; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/category_card.php'; } ?>
+        </div>
+
+
+        <?php include './footer.php'; ?>
+    </body>
+    </html>
