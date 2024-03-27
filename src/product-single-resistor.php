@@ -16,7 +16,19 @@
 
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
-    
+
+    <div class="w-full px-5p">
+        <div class="breadcrumbs">       
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">All Categories</a>| 
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Resistors</a>| 
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Carbon Composition Resistors</a>| 
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Carbon Composition Resistors - 1/8 watt (RC)</a>| 
+            <p>(RCF) RC05GF120J</p>
+        </div>
+    </div>
+
+
+
     <div class="flex w-full mx-auto flex-col lg:flex-row px-5p py-20 gap-8">
         <h1 class="uppercase lg:hidden">Carbon Composition Resistors - 1/8 watt (RC) </h1>
         <div class="flex gap-8 flex lg:w-[30%] w-full">

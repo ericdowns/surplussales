@@ -16,7 +16,7 @@
 
 
     <div class="w-full px-5p max-w-screen-lg">
-        <div class="flex py-3 gap-x-3">       
+        <div class="breadcrumbs">       
           <p> 
             <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">All Categories</a> </p> | 
             <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Resistors</a> </p> | 

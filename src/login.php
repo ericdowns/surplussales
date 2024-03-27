@@ -39,8 +39,8 @@
                 </div>
                 <button class="btn_add_cart w-96 hover:bg-white">Login</button>
                 <div class="flex flex-col items-start gap-2">
-                    <a href="/" class="text-neutral-800 font-bold underline">Lost your password?</a>
-                    <p class="text-neutral-800 font-medium">Need an account? <a class="font-bold underline" href="/">Sign up here.</a></p>
+                    <a href="/" class="text-neutral-800 font-bold underline hover:opacity-50 hover:ease-in-out hover:duration-300">Lost your password?</a>
+                    <p class="text-neutral-800 font-medium">Need an account? <a class="font-bold underline hover:opacity-50 hover:ease-in-out hover:duration-300" href="/">Sign up here.</a></p>
                 </div>
             </div> <!-- form_wrapper -->
 

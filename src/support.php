@@ -16,7 +16,7 @@
     <?php include './header.php'; ?>
 
 
-    <img src="./imgs/about_hero.jpg" class="block h-[375px] w-full object-cover object-center" alt="" />
+    <img src="./imgs/placeholder-support.jpg" class="block h-[375px] w-full object-cover object-center" alt="" />
 
     <div class="grid lg:grid-cols-12 gap-16 w-full mx-auto px-5p py-20 items-start">
         <div class="flex content-center flex-wrap lg:col-span-4 col-span-1 gap-3">

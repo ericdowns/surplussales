@@ -10,45 +10,55 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 
+<style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style>
+
+
 <body class="bg-cream">
     <?php include './header.php'; ?>
 
 
 
     <div class="w-full px-5p max-w-screen-lg">
-        <div class="flex py-3 gap-x-3">       
-          <p> 
-            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">All Categories</a> </p> | 
-            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Resistors</a> </p> | 
-            <p>Carbon Composition Resistors</p>
+        <div class="breadcrumbs">       
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">All Categories</a>| 
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Resistors</a>| 
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Wire Wound Resisters</a>| 
+            <p>Wire Wound Resisters - 0 ohm - 200k ohm</p>
         </div>
     </div>
-   
+
+
+
 
     <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6 ">
-        <div>
-            <div>
-                <h1 class="uppercase mb-5">Carbon Composition Resistors</h1>
-            </div>
-            <div class="flex justify-between flex-wrap lg:flex-nowrap gap-4 w-full">
+        <div class="flex justify-between">
+            <div class="w-[75%] flex flex-col justify-between flex-wrap lg:flex-nowrap gap-4 w-full">
                 <div>
-                    <p class="text-stone-500">Legend: RC = Commercial / RCR = Military (5 band)</p>
-                    <p class="text-stone-500">Note: Minimum order is $1.00 per line item.</p>
+                    <h1 class="uppercase mb-5">Wire Wound Resisters - 0 ohm - 200k ohm</h1>
                 </div>
-                <div class="flex items-center flex-wrap-reverse gap-4 w-full lg:w-auto">
-                    <p class="text-stone-500 text-lg font-medium leading-normal">125 Products</p>
-                    <a href="/" class="flex items-center justify-center content-center lg:w-auto w-full h-14 bg-white rounded shadow border border-stone-300 px-5 py-3 gap-2">
-                        <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
-                        <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
-                    </a>
+
+                <div>
+                    <p class="text-stone-500 text-lg font-medium">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget. 
+                    </p>
                 </div>
             </div>
+
+
+            <div class="flex justify-end min-w-[20%] items-center self-end flex-nowrap gap-4">
+                <p class="text-stone-500 text-lg font-medium leading-normal whitespace-nowrap">125 Products</p>
+                <a href="/" class="flex items-center justify-center content-center lg:w-auto w-full h-14 bg-white rounded shadow border border-stone-300 px-5 py-3 gap-2">
+                    <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
+                    <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
+                </a>
+            </div>
+
         </div>
     </div>
 
 
 
-    <div class="flex px-5p pt-0 py-20 border flex justify-center items-center text-center ">
+    <div class="flex px-5p pt-0 py-20 flex justify-center items-center text-center ">
         <div class="flex flex-col w-full overflow-x-auto">
             <div class="w-full">
                 <div class="inline-block min-w-full border-none">
@@ -76,6 +86,26 @@
         </div>
     </div>
 
+
+
+
+    <div class="flex px-5p pt-0 py-20 flex justify-center items-center">
+        <nav class="inline-flex pb-40 gap-2 w-full mx-auto justify-center">
+            <button type="button" aria-current="page" class="inline-flex rounded items-center px-4 py-2 text-sm font-semibold border border-stone-500 bg-neutral-800 text-white">1</button>
+            <button type="button" class="inline-flex items-center px-4 py-2 text-sm rounded font-semibold border border-stone-500 hover:bg-neutral-800 hover:text-white">2</button>
+            <button type="button" class="inline-flex items-center px-4 py-2 text-sm rounded font-semibold border border-stone-500 hover:bg-neutral-800 hover:text-white">3</button>
+            <button type="button" class="inline-flex items-end px-2  text-lg  font-semibold">...</button>
+            <button type="button" class="inline-flex items-center px-4 py-2 text-sm rounded font-semibold border border-stone-500 hover:bg-neutral-800 hover:text-white">7</button>
+        </nav>
+    </div>
+
+
+
+
+
+<!--++++++++++++++++++++++++++++++++++++++++++++
+    Using this to apply a tab to table row 
+    ++++++++++++++++++++++++++++++++++++++++++++++-->
 
     <script>
         document.querySelector('tbody').addEventListener('click', function(e) {

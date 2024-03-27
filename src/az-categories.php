@@ -15,15 +15,19 @@
 <body class="bg-cream">
 
 
-    <div class="w-full px-5p max-w-screen-lg">
-        <div class="flex py-3 gap-x-3">       
-          <p> <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Home</a> </p> | <p>A - Z Listing of Products</p>
 
-      </div>
-  </div>
+  <div class="w-full px-5p">
+    <div class="breadcrumbs">       
+        <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Home</a>| 
+        <p>A - Z Listing of Products</p>
+    </div>
+</div>
 
 
-  <div class="mx-5p lg:pt-16 pt-3 pb-6 _mb-6  border-b border-neutral-400">
+
+
+
+<div class="mx-5p lg:pt-16 pt-3 pb-6 _mb-6  border-b border-neutral-400">
     <div class="max-w-screen-lg">
         <h1 class="uppercase mb-5">A - Z Listing of Products</h1>
         <p class="font-medium text-stone-500 text-lg">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
@@ -32,48 +36,34 @@
 
 
 <div class="w-full px-5p">
-    <div class="flex 
-    gap-4
-    lg:justify-between
-    justify-start
-    flex-wrap
-    border-b 
-    border-neutral-400 
-    py-5 
-    [&_*]:py-1 
-    [&_*]:px-2 
-    [&_*]:rounded-lg
-    [&_*]:rounded-lg
-    [&_*]:font-bold
-    [&_*]:hover:bg-white
-    ">
-    <a href="#" class="letter bg-black text-white"> A </a>
-    <a href="#" class="letter"> B </a>
-    <a href="#" class="letter"> C </a>
-    <a href="#" class="letter"> D </a>
-    <a href="#" class="letter"> E </a>
-    <a href="#" class="letter"> F </a>
-    <a href="#" class="letter"> G </a>
-    <a href="#" class="letter"> H </a>
-    <a href="#" class="letter"> I </a>
-    <a href="#" class="letter"> J </a>
-    <a href="#" class="letter"> K </a>
-    <a href="#" class="letter"> L </a>
-    <a href="#" class="letter"> M </a>
-    <a href="#" class="letter"> N </a>
-    <a href="#" class="letter"> O </a>
-    <a href="#" class="letter"> P </a>
-    <a href="#" class="letter"> Q </a>
-    <a href="#" class="letter"> R </a>
-    <a href="#" class="letter"> S </a>
-    <a href="#" class="letter"> T </a>
-    <a href="#" class="letter"> U </a>
-    <a href="#" class="letter"> V </a>
-    <a href="#" class="letter"> W </a>
-    <a href="#" class="letter"> X </a>
-    <a href="#" class="letter"> Y </a>
-    <a href="#" class="letter"> Z </a>
-</div>
+    <div class="flex gap-4 lg:justify-between justify-start flex-wrap border-b border-neutral-400 py-5 [&_*]:py-1 [&_*]:px-2 [&_*]:rounded-lg [&_*]:rounded-lg [&_*]:font-bold ">
+        <a href="#" class="_letter bg-black text-white"> A </a>
+        <a href="#" class="letter"> B </a>
+        <a href="#" class="letter"> C </a>
+        <a href="#" class="letter"> D </a>
+        <a href="#" class="letter"> E </a>
+        <a href="#" class="letter"> F </a>
+        <a href="#" class="letter"> G </a>
+        <a href="#" class="letter"> H </a>
+        <a href="#" class="letter"> I </a>
+        <a href="#" class="letter"> J </a>
+        <a href="#" class="letter"> K </a>
+        <a href="#" class="letter"> L </a>
+        <a href="#" class="letter"> M </a>
+        <a href="#" class="letter"> N </a>
+        <a href="#" class="letter"> O </a>
+        <a href="#" class="letter"> P </a>
+        <a href="#" class="letter"> Q </a>
+        <a href="#" class="letter"> R </a>
+        <a href="#" class="letter"> S </a>
+        <a href="#" class="letter"> T </a>
+        <a href="#" class="letter"> U </a>
+        <a href="#" class="letter"> V </a>
+        <a href="#" class="letter"> W </a>
+        <a href="#" class="letter"> X </a>
+        <a href="#" class="letter"> Y </a>
+        <a href="#" class="letter"> Z </a>
+    </div>
 </div>
 
 
@@ -89,7 +79,7 @@
           <div class="text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10">A</div>
       </div>
 
-      <div class="flex flex-col lg:w-[40%] w-full  gap-2">
+      <div class="flex flex-col lg:w-[40%] w-full   [&_*]:py-[3px] [&_*]:px-[5px] az_item">
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
@@ -101,7 +91,7 @@
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
 
     </div>
-    <div class="flex flex-col lg:w-[40%] w-full gap-2">
+    <div class="flex flex-col lg:w-[40%] w-full   [&_*]:py-[3px] [&_*]:px-[5px] az_item">
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
@@ -123,7 +113,7 @@
       <div class="text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10">B</div>
   </div>
 
-  <div class="flex flex-col lg:w-[40%] w-full  gap-2">
+  <div class="flex flex-col lg:w-[40%] w-full   [&_*]:py-[3px] [&_*]:px-[5px] az_item">
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
@@ -135,7 +125,7 @@
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
 
 </div>
-<div class="flex flex-col lg:w-[40%] w-full gap-2">
+<div class="flex flex-col lg:w-[40%] w-full   [&_*]:py-[3px] [&_*]:px-[5px] az_item">
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
     <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
@@ -156,7 +146,7 @@
         <div class="text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10">C</div>
     </div>
 
-    <div class="flex flex-col lg:w-[40%] w-full  gap-2">
+    <div class="flex flex-col lg:w-[40%] w-full   [&_*]:py-[3px] [&_*]:px-[5px] az_item">
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
@@ -168,7 +158,7 @@
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
 
     </div>
-    <div class="flex flex-col lg:w-[40%] w-full gap-2">
+    <div class="flex flex-col lg:w-[40%] w-full   [&_*]:py-[3px] [&_*]:px-[5px] az_item">
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>
         <a href="/" class="flex justify-between"> <p class="text-black font-medium">Abrasives</p> <p class="text-neutral-400">34</p> </a>

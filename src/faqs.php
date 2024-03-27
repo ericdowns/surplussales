@@ -18,7 +18,7 @@
     <?php include './header.php'; ?>
 
 
-    <img src="./imgs/about_hero.jpg" class="block h-[375px] w-full object-cover object-center" alt="" />
+    <img src="./imgs/placeholder-faq.jpg" class="block h-[375px] w-full object-cover object-center" alt="" />
     <div class="grid lg:grid-cols-12 gap-16 w-full mx-auto px-5p py-20 pb-56">
         <div class="flex content-start flex-wrap lg:col-span-4 col-span-1 gap-3">
             <div class="pb-3 text-black text-5xl font-bold font-interstate uppercase leading-10">Frequently asked questions</div> 

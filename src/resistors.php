@@ -16,18 +16,16 @@
 
 
     <div class="w-full px-5p max-w-screen-lg">
-        <div class="flex py-3 gap-x-3">       
+        <div class="breadcrumbs">       
           <p> <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">All Categories</a> </p> | <p>Resistors</p>
 
       </div>
   </div>
 
-
-
   <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6  border-b border-neutral-400">
     <div class="max-w-screen-lg">
         <h1 class="uppercase mb-5">Resistors</h1>
-        <p class="text-stone-500">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
+        <p class="text-stone-500 text-lg font-medium">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
     </div>
 </div>
 
@@ -35,14 +33,8 @@
 
 
 <div class="w-full mx-auto px-5p pb-20  grid gap-3  xl:grid-cols-3 md:grid-cols-2  grid-cols-1 ">
-    <?php for ($i = 0; $i < 16; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/sub_category_card.php'; } ?>
+    <?php for ($i = 0; $i < 15; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/sub_category_card.php'; } ?>
 </div>
-
-
-
-
-
-
 
 
 

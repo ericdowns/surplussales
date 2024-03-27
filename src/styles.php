@@ -17,3 +17,6 @@
 </div>
 
 
+<div class="aspect-w-4 aspect-h-3 relative">
+    <img src="./imgs/placeholder-about_building.jpg" class="absolute object-cover w-full h-full" alt="" />
+</div>

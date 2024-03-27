@@ -1577,6 +1577,32 @@ footer a:hover {
   background-color: rgb(243 238 234 / var(--tw-bg-opacity));
 }
 
+.letter:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.az_item > *:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.breadcrumbs > * {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 /* Define a component that shows the current breakpoint */
 
 .breakpoint-indicator {
@@ -1625,21 +1651,12 @@ footer a:hover {
   }
 }
 
-.pointer-events-none {
-  pointer-events: none;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.inset-y-0 {
-  top: 0px;
-  bottom: 0px;
 }
 
 .-top-3 {
@@ -1664,6 +1681,10 @@ footer a:hover {
 
 .right-\[-9px\] {
   right: -9px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-\[-16px\] {
@@ -1750,12 +1771,16 @@ footer a:hover {
   margin-bottom: 1.5rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .ms-3 {
@@ -1858,6 +1883,10 @@ footer a:hover {
   height: 2.25rem;
 }
 
+.h-\[13px\] {
+  height: 13px;
+}
+
 .h-\[16px\] {
   height: 16px;
 }
@@ -1899,6 +1928,10 @@ footer a:hover {
   height: 1px;
 }
 
+.max-h-\[530px\] {
+  max-height: 530px;
+}
+
 .min-h-\[500px\] {
   min-height: 500px;
 }
@@ -1931,16 +1964,16 @@ footer a:hover {
   width: 0.5rem;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
 .w-4\/5 {
   width: 80%;
 }
 
 .w-4\/6 {
   width: 66.666667%;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-48 {
@@ -1953,6 +1986,10 @@ footer a:hover {
 
 .w-52 {
   width: 13rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-64 {
@@ -1973,6 +2010,14 @@ footer a:hover {
 
 .w-\[10\%\] {
   width: 10%;
+}
+
+.w-\[13px\] {
+  width: 13px;
+}
+
+.w-\[15px\] {
+  width: 15px;
 }
 
 .w-\[17px\] {
@@ -2035,6 +2080,10 @@ footer a:hover {
   width: 72px;
 }
 
+.w-\[75\%\] {
+  width: 75%;
+}
+
 .w-\[75px\] {
   width: 75px;
 }
@@ -2049,6 +2098,10 @@ footer a:hover {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[20\%\] {
+  min-width: 20%;
 }
 
 .min-w-\[20px\] {
@@ -2131,10 +2184,6 @@ footer a:hover {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -2151,6 +2200,10 @@ footer a:hover {
   flex-wrap: wrap-reverse;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .content-center {
   align-content: center;
 }
@@ -2161,6 +2214,10 @@ footer a:hover {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -2203,6 +2260,10 @@ footer a:hover {
   gap: 2.75rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-16 {
   gap: 4rem;
 }
@@ -2239,9 +2300,9 @@ footer a:hover {
   gap: 2rem;
 }
 
-.gap-x-3 {
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-y-8 {
@@ -2270,6 +2331,14 @@ footer a:hover {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .overflow-hidden {
@@ -2475,6 +2544,14 @@ footer a:hover {
   background-color: rgb(212 212 216 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-l {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -2485,6 +2562,16 @@ footer a:hover {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-cream {
+  --tw-gradient-from: #F3EEEA var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(243 238 234 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-red {
+  --tw-gradient-to: #EE433E var(--tw-gradient-to-position);
+}
+
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
@@ -2493,16 +2580,8 @@ footer a:hover {
   fill: #222222;
 }
 
-.fill-current {
-  fill: currentColor;
-}
-
 .fill-stone-100 {
   fill: #f5f5f4;
-}
-
-.fill-white {
-  fill: #fff;
 }
 
 .object-contain {
@@ -2561,6 +2640,11 @@ footer a:hover {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5 {
@@ -2658,6 +2742,10 @@ footer a:hover {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
 }
 
 .pb-5 {
@@ -2803,6 +2891,10 @@ footer a:hover {
   font-size: 30px;
 }
 
+.text-\[7px\] {
+  font-size: 7px;
+}
+
 .text-\[9px\] {
   font-size: 9px;
 }
@@ -2838,6 +2930,10 @@ footer a:hover {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -2898,11 +2994,6 @@ footer a:hover {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-neutral-400 {
@@ -3293,6 +3384,10 @@ footer a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:border-2:hover {
   border-width: 2px;
 }
@@ -3366,6 +3461,10 @@ footer a:hover {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:opacity-50:hover {
+  opacity: 0.5;
+}
+
 .hover\:duration-300:hover {
   transition-duration: 300ms;
 }
@@ -3377,6 +3476,10 @@ footer a:hover {
 .hover\:\*\:text-amber-400 > *:hover {
   --tw-text-opacity: 1;
   color: rgb(251 191 36 / var(--tw-text-opacity));
+}
+
+.hover\:\*\:duration-300 > *:hover {
+  transition-duration: 300ms;
 }
 
 .focus\:text-black:focus {
@@ -3402,13 +3505,38 @@ footer a:hover {
   opacity: 0.5;
 }
 
+.group:hover .group-hover\:border-amber-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 191 36 / var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-stone-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(87 83 78 / var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:bg-stone-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(87 83 78 / var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:fill-black {
   fill: #222222;
+}
+
+.group:hover .group-hover\:text-amber-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-black {
   --tw-text-opacity: 1;
   color: rgb(34 34 34 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-yellow {
@@ -3435,19 +3563,6 @@ footer a:hover {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:gap-x-3 {
-    -moz-column-gap: 0.75rem;
-         column-gap: 0.75rem;
-  }
-
-  .md\:gap-y-8 {
-    row-gap: 2rem;
   }
 }
 
@@ -3600,10 +3715,25 @@ footer a:hover {
     gap: 1rem;
   }
 
+  .lg\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
+  .lg\:gap-y-16 {
+    row-gap: 4rem;
+  }
+
   .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:p-6 {
@@ -3683,6 +3813,10 @@ footer a:hover {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   .xl\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
@@ -3741,9 +3875,19 @@ footer a:hover {
   padding-right: 0.5rem;
 }
 
+.\[\&_\*\]\:px-\[5px\] * {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .\[\&_\*\]\:py-1 * {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.\[\&_\*\]\:py-\[3px\] * {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .\[\&_\*\]\:font-bold * {
@@ -3753,9 +3897,4 @@ footer a:hover {
 .\[\&_\*\]\:text-stone-500 * {
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
-}
-
-.\[\&_\*\]\:hover\:bg-white:hover * {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }

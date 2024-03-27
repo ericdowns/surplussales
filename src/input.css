@@ -236,7 +236,7 @@
 		focus:outline-0
 		focus:ring-1
 		focus:ring-black
-		focus:border-black  ;
+		focus:border-black
 		;
 	}
 
@@ -264,6 +264,52 @@
 		px-4
 		;
 	}
+
+
+
+	.letter{
+		@apply
+		hover:bg-white
+		;
+	}
+
+
+	.az_item > *{
+		@apply
+		hover:bg-white
+		;
+	}
+
+
+
+	.infoclass{
+		@apply
+		flex 
+		py-3 
+		gap-x-2 
+		whitespace-nowrap 
+		overflow-x-auto
+		items-center
+		;
+	}
+
+	.breadcrumbs{
+		@apply
+		flex 
+		py-3 
+		gap-x-2 
+		whitespace-nowrap 
+		overflow-x-auto
+		items-center
+		;
+	}
+
+	.breadcrumbs > *{
+		@apply
+		text-sm
+		;
+	}
+
 
 }
 

@@ -17,12 +17,8 @@
 
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
-
     <div class="page_wrapper w-full mx-auto px-5p py-14 pb-56">
-
-
         <div class="flex lg:flex-row flex-col gap-10">
-
             <div class="lg:w-[65%] w-full">
                 <div class="w-full mx-auto pb-4">
                     <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Shopping Cart</h6>
@@ -48,31 +44,19 @@
                     </div>
                 </div>
                 <?php for ($i = 0; $i < 4; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/product_cart_row.php'; } ?>
-
-
                 <div class="py-5">
                     <label class="font-medium">Coupon Code</label>
                     <input type="text" class="inputstyle w-64"> </input>
                     <a class="btn_add_cart_sm hover:bg-cream" href="/">Apply</a>
                 </div>
-
-
-
             </div>
-
-
             <div class="lg:w-[35%] w-full">
                 <div class="w-full mx-auto pb-4">
                     <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Summary</h6>
                 </div>
-
-
                 <?php include './components/summary_card.php'; ?>
-
-
             </div>
         </div>
-
     </div> <!-- page_wrapper -->
 
 
