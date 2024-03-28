@@ -199,7 +199,11 @@
 		transition 
 		duration-300
 		ease-in-out 
-		hover:bg-stone-500;
+		
+
+		;
+
+
 
 	}
 
@@ -237,6 +241,28 @@
 		focus:ring-1
 		focus:ring-black
 		focus:border-black
+		;
+	}
+
+	.searchinputstyle {
+		@apply
+		w-full 
+		h-14 
+		text-stone-500 
+		text-lg 
+		leading-tight 
+		font-medium 
+		focus:outline-none 
+		outline-none 
+		ring-0 
+		ring-offset-0  
+		outline-0
+		focus:ring-offset-transparent   
+		focus:border-none
+		focus:outline-0
+		focus:ring-transparent
+		focus:border-transparent
+		border-none rounded-none
 		;
 	}
 

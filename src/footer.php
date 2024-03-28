@@ -47,8 +47,8 @@
                     <a class="text-center text-stone-100 text-base font-bold font-interstate uppercase leading-snug" href="/"> (402) 346-4750 </a>
                 </div>              
             </div>
-            <div class="flex flex-col items-center w-full lg:w-1/2">
-                <div class="flex flex-col items-center gap-3 pb-5 lg:pb-0">
+            <div class="flex flex-col items-center w-full lg:w-1/2 lg:border-none border-b border-stone-500 lg:pb-0 lg:mb-0 pb-5 mb-5">
+                <div class="flex flex-col items-center gap-3 pb-5 lg:pb-0 ">
                     <a class="text-center text-stone-100 text-base font-bold font-interstate uppercase leading-snug" href="/"> 
                         601 South 14th St. Suite 100<br>
                         Fort Calhoun, NE 68023
@@ -88,11 +88,17 @@
 
 
 <div class="flex justify-center lg:justify-between  gap-5 lg:flex-row flex-col  w-full mx-auto p-5p pb-5 pt-5 items-center">
-    <div class="flex justify-between text-neutral-400 text-sm gap-1 lg:gap-4 font-medium leading-tight lg:order:2 order-1">
-        <a class=" hover:text-white" href="/">©2024 Surplus Sales of Nebraska</a> |
-        <a class=" hover:text-white" href="/">Terms</a> |
-        <a class=" hover:text-white" href="/">Privacy</a> |
-        <a class=" hover:text-white" href="/">Accessibility</a>
+    <div class="flex justify-between lg:flex-row flex-col text-neutral-400 text-sm gap-3 lg:gap-4 font-medium leading-tight lg:order:2 order-1">
+
+        <span class="gap-0">
+            <a class="hover:text-white" href="/">©2024 Surplus Sales of Nebraska</a>
+        </span>
+        <span class="_bg-red hidden lg:inline-flex -ml-2 -mr-2">|</span>
+        <span class="flex justify-center gap-2">  
+            <a class=" hover:text-white" href="/">Terms</a> |
+            <a class=" hover:text-white" href="/">Privacy</a> |
+            <a class=" hover:text-white" href="/">Accessibility</a>
+        </span>
     </div>
     <div class="flex items-center gap-3 lg:order-2">
      <a class="text-white hover:text-neutral-400" href="/"> <i class="text-[30px] fa-brands fa-facebook"></i></a>

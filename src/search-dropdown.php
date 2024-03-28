@@ -18,44 +18,33 @@
     <div class="flex px-5p py-20 border border-slate-300 flex justify-center items-center text-center ">
 
 
-        <div class="flex flex-col -border -border-red">
-
+        <div class="flex flex-col -border -border-red w-full max-w-[600px] mx-auto">
             <div class="flex gap-6 w-full">
-                <div class="flex h-14 items-center bg-white -rounded rounded-tl-md rounded-tr-md overflow-hidden shadow  min-w-fit   xl:min-w-[600px]">
-                    <input class="w-full h-14 text-stone-500 text-lg leading-tight font-medium focus:outline-none outline-none ring-0 ring-offset-0 ring-offset-blue-300 hover:ring-offset-blue-500 border-none rounded-none " id="search" type="text" placeholder="Search keyword, item, model or part #">
-                    <button class="bg-white text-gray-500 focus:outline-none w-16 h-full flex items-center justify-center">
-                        <svg class="fill-black h-4 w-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                            <path d="M368 208A160 160 0 1 0 48 208a160 160 0 1 0 320 0zM337.1 371.1C301.7 399.2 256.8 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 48.8-16.8 93.7-44.9 129.1L505 471c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L337.1 371.1z"/>
-                        </svg>
-                    </button>
-                </div>
+                <div class="flex h-14 w-full items-center bg-white rounded-tl-md rounded-tr-md overflow-hidden shadow-xl">
+                    <input class="searchinputstyle" id="search" type="text" placeholder="Search keyword, item, model or part #">
+                    <button class="text-gray-500 focus:outline-none w-16 h-full flex items-center justify-center">
+                      <i class="fa-regular fa-magnifying-glass"></i>
+                  </button>
+              </div>
+          </div>
+          <div class="flex flex-col items-start -rounded bg-white w-full  bg-white rounded-bl-md rounded-br-md shadow pb-5">
+            <span class="p-3 text-stone-500 text-base font-medium">Trending Search</span>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <div class="flex w-full">
+                <div class="flex w-full mx-3 mx-auto border-b border-neutral-400 mt-5 mb-3"></div>
             </div>
-
-            <div class="flex flex-col items-start -rounded bg-white w-full max-w-[660px] bg-white rounded-bl-md rounded-br-md shadow pb-5">
-
-
-
-                <span class="p-3 text-stone-500 text-base font-medium">Trending Search</span>
-
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
-
-                <div class="flex w-full">
-                    <div class="flex w-full mx-3 mx-auto border-b border-neutral-400 mt-5 mb-3"></div>
-                </div>
-
-                <span class="p-3 text-stone-500 text-base font-medium">Category</span>
-
-                <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+            <span class="p-3 text-stone-500 text-base font-medium">Category</span>
+            <a class="searchitem" href="/"><span class="text-stone-900 text-lg font-medium">Batteries & Battery Holders</span> <span class="text-neutral-400 text-base font-medium">2,334</span></a>
+        </div> <!-- form_wrapper -->
 
 
-            </div> <!-- form_wrapper -->
-        </div>
     </div>
+</div>
 </div>
 
 

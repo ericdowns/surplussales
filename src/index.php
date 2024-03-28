@@ -82,6 +82,12 @@
                 <h6 class="border-b border-neutral-400 pb-2 mb-2">Misc Pages:</h6>
                 <a href="/components.php">Components</a>
                 <a href="/filter-slider-simple.php">Filter Slider Complex</a>
+                <a href="/search-dropdown.php">Search Dropdown</a>
+                <a href="/category-dropdown.php">Category Dropdown</a>
+                <a href="/mobile-menu.php">Mobile Menu</a>
+
+
+
             </div>
 
 
