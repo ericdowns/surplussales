@@ -20,7 +20,8 @@
             <!-- <div class="absolute bg-gradient-to-r from-cream to-red h-14 top-0 right-0 w-40"></div> -->
             <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">All Categories</a>| 
             <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Resistors</a>| 
-            <p>Carbon Composition Resistors</p>
+            <a class="transition ease-in-out duration-300 hover:text-red font-bold text-black" href="/">Carbon Composition Resistors</a>| 
+            <p>Carbon Composition Resistors - 1/8 watt (RC)</p>
         </div>
     </div>
 
@@ -28,7 +29,7 @@
     <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6 ">
         <div>
             <div>
-                <h1 class="uppercase mb-5">Carbon Composition Resistors</h1>
+                <h1 class="uppercase mb-5">Carbon Composition Resistors - 1/8 watt (RC)</h1>
             </div>
             <div class="flex justify-between flex-wrap lg:flex-nowrap gap-4 w-full">
                 <div>

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title>Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
 </head>
 
-<style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style>
+<!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
 
 <body class="bg-cream">
@@ -28,35 +28,27 @@
     </div>
 
 
-
-
     <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6 ">
-        <div class="flex justify-between">
-            <div class="w-[75%] flex flex-col justify-between flex-wrap lg:flex-nowrap gap-4 w-full">
+        <div class="flex justify-between  lg:flex-row flex-col gap-5">
+            <div class="grow-[2] flex justify-between  flex-col  w-full">
                 <div>
                     <h1 class="uppercase mb-5">Wire Wound Resisters - 0 ohm - 200k ohm</h1>
                 </div>
-
                 <div>
                     <p class="text-stone-500 text-lg font-medium">
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget. 
                     </p>
                 </div>
             </div>
-
-
-            <div class="flex justify-end min-w-[20%] items-center self-end flex-nowrap gap-4">
-                <p class="text-stone-500 text-lg font-medium leading-normal whitespace-nowrap">125 Products</p>
+            <div class="flex justify-start lg:justify-end grow-[1]  lg:items-center lg:self-end lg:flex-row flex-col gap-4">
+                <p class="text-stone-500 text-lg font-medium leading-normal whitespace-nowrap">1,598 Products Products</p>
                 <a href="/" class="flex items-center justify-center content-center lg:w-auto w-full h-14 bg-white rounded shadow border border-stone-300 px-5 py-3 gap-2">
                     <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
                     <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
                 </a>
             </div>
-
         </div>
     </div>
-
-
 
     <div class="flex px-5p pt-0 py-20 flex justify-center items-center text-center ">
         <div class="flex flex-col w-full overflow-x-auto">
@@ -77,7 +69,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php for ($i = 0; $i < 10; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/table_row.php'; } ?>
+                                <?php for ($i = 0; $i < 10; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/table_row_misc.php'; } ?>
                             </tbody>
                         </table>
                     </div>

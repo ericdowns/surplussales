@@ -1740,6 +1740,10 @@ footer a:hover {
   order: -9999;
 }
 
+.order-last {
+  order: 9999;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -2161,6 +2165,10 @@ footer a:hover {
   width: 90%;
 }
 
+.w-\[48px\] {
+  width: 48px;
+}
+
 .min-w-\[20\%\] {
   min-width: 20%;
 }
@@ -2180,6 +2188,10 @@ footer a:hover {
 
 .min-w-\[18px\] {
   min-width: 18px;
+}
+
+.min-w-\[200px\] {
+  min-width: 200px;
 }
 
 .max-w-4xl {
@@ -2226,8 +2238,32 @@ footer a:hover {
   max-width: 150px;
 }
 
+.max-w-20 {
+  max-width: 5rem;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.grow-\[1\] {
+  flex-grow: 1;
+}
+
+.grow-\[2\] {
+  flex-grow: 2;
+}
+
+.grow-\[0\] {
+  flex-grow: 0;
 }
 
 .rotate-180 {
@@ -2271,6 +2307,10 @@ footer a:hover {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .flex-wrap {
@@ -2448,6 +2488,10 @@ footer a:hover {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.break-words {
+  overflow-wrap: break-word;
 }
 
 .rounded {
@@ -2639,6 +2683,11 @@ footer a:hover {
 .bg-zinc-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 216 / var(--tw-bg-opacity));
+}
+
+.bg-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 115 158 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-l {
@@ -3730,6 +3779,10 @@ footer a:hover {
     order: 2;
   }
 
+  .lg\:order-first {
+    order: -9999;
+  }
+
   .lg\:col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -3822,6 +3875,10 @@ footer a:hover {
     width: 100%;
   }
 
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -3899,6 +3956,10 @@ footer a:hover {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:self-end {
+    align-self: flex-end;
+  }
+
   .lg\:border-none {
     border-style: none;
   }
@@ -3964,6 +4025,14 @@ footer a:hover {
     width: 70%;
   }
 
+  .xl\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .xl\:w-\[30\%\] {
+    width: 30%;
+  }
+
   .xl\:min-w-\[600px\] {
     min-width: 600px;
   }
@@ -3986,6 +4055,10 @@ footer a:hover {
 
   .xl\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
   }
 
   .xl\:gap-10 {
