@@ -28,7 +28,8 @@
     </div>
 
 
-    <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6 ">
+    <!--++++++++++++++++ Page Header +++++++++++++++++++++++++-->
+    <div class="mx-5p lg:pt-16 pt-10 pb-6 mb-6 ">
         <div class="flex justify-between  lg:flex-row flex-col gap-5">
             <div class="grow-[2] flex justify-between  flex-col  w-full">
                 <div>
@@ -42,14 +43,18 @@
             </div>
             <div class="flex justify-start lg:justify-end grow-[1]  lg:items-center lg:self-end lg:flex-row flex-col gap-4">
                 <p class="text-stone-500 text-lg font-medium leading-normal whitespace-nowrap">1,598 Products Products</p>
-                <a href="/" class="flex items-center justify-center content-center lg:w-auto w-full h-14 bg-white rounded shadow border border-stone-300 px-5 py-3 gap-2">
+                <a href="/" class="filterbtn">
                     <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
                     <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
                 </a>
             </div>
         </div>
-    </div>
+    </div> <!-- Page Header -->
 
+
+
+
+    <!--++++++++++++++++ Table / Header / Table Rows +++++++++++++++++++++++++-->
     <div class="flex px-5p pt-0 py-20 flex justify-center items-center text-center ">
         <div class="flex flex-col w-full overflow-x-auto">
             <div class="w-full">
@@ -76,11 +81,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> <!-- Table / Header / Table -->
 
 
 
-
+    <!--++++++++++++++++ Pagination +++++++++++++++++++++++++-->
     <div class="flex px-5p pt-0 py-20 flex justify-center items-center">
         <nav class="inline-flex pb-40 gap-2 w-full mx-auto justify-center">
             <button type="button" aria-current="page" class="inline-flex rounded items-center px-4 py-2 text-sm font-semibold border border-stone-500 bg-neutral-800 text-white">1</button>
@@ -89,15 +94,13 @@
             <button type="button" class="inline-flex items-end px-2  text-lg  font-semibold">...</button>
             <button type="button" class="inline-flex items-center px-4 py-2 text-sm rounded font-semibold border border-stone-500 hover:bg-neutral-800 hover:text-white">7</button>
         </nav>
-    </div>
+    </div> <!-- Pagination -->
 
 
 
 
 
-<!--++++++++++++++++++++++++++++++++++++++++++++
-    Using this to apply a tab to table row 
-    ++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--++++++++++++++++ Using this to apply a tab to table row +++++++++++++++++++++++++-->
 
     <script>
         document.querySelector('tbody').addEventListener('click', function(e) {

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 
+<!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
+
 <body class="bg-cream">
     <?php include './header.php'; ?>
 
@@ -26,26 +28,31 @@
     </div>
 
 
-    <div class="mx-5p lg:pt-16 pt-3 pb-6 mb-6 ">
-        <div>
-            <div>
-                <h1 class="uppercase mb-5">Carbon Composition Resistors - 1/8 watt (RC)</h1>
-            </div>
-            <div class="flex justify-between flex-wrap lg:flex-nowrap gap-4 w-full">
+
+    <div class="mx-5p lg:pt-16 pt-10 pb-6 mb-6 ">
+        <div class="flex justify-between  lg:flex-row flex-col gap-5">
+            <div class="grow-[2] flex justify-between  flex-col  w-full">
+                <div>
+                    <h1 class="uppercase mb-5">Carbon Composition Resistors - 1/8 watt (RC</h1>
+                </div>
                 <div>
                     <p class="text-stone-500 text-lg font-medium"><span class="font-bold">Legend:</span> RC = Commercial / RCR = Military (5 band)</p>
                     <p class="text-stone-500 text-lg font-medium"><span class="font-bold">Note:</span> Minimum order is $1.00 per line item.</p>
+
                 </div>
-                <div class="flex items-center flex-wrap-reverse gap-4 w-full lg:w-auto">
-                    <p class="text-stone-500 text-lg font-medium leading-normal">125 Products</p>
-                    <a href="/" class="flex items-center justify-center content-center lg:w-auto w-full h-14 bg-white rounded shadow border border-stone-300 px-5 py-3 gap-2">
-                        <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
-                        <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
-                    </a>
-                </div>
+            </div>
+            <div class="flex justify-start lg:justify-end grow-[1]  lg:items-center lg:self-end lg:flex-row flex-col-reverse gap-4">
+                <p class="text-stone-500 text-lg font-medium leading-normal whitespace-nowrap">125 Products</p>
+                
+                <a href="/" class="filterbtn">
+                    <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
+                    <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
+                </a>
             </div>
         </div>
     </div>
+
+
 
 
 
@@ -68,6 +75,8 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php include './components/table_row_expanded.php'; ?>
+
                                 <?php for ($i = 0; $i < 10; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/table_row.php'; } ?>
                             </tbody>
                         </table>

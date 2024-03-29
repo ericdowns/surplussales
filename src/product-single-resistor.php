@@ -88,7 +88,8 @@
                                 <div class="text-neutral-800 text-2xl font-bold font-interstate uppercase leading-normal">$1.40</div> <p>/ each</p>
                             </div>
                             <div class="flex items-center gap-2 py-4 justify-start">
-                                <input type="number" class="w-auto max-w-[60px] inputstyle" name="custom-input-number" value="1"></input> <p class="text-stone-500 text-lg font-medium font-['Articulat CF'] leading-normal">Qty</p>
+                                <input type="number" class="w-auto max-w-[60px] inputstyle" name="custom-input-number" value="1"></input> 
+                                <p class="text-stone-500 text-lg font-medium font-['Articulat CF'] leading-normal">Qty</p>
                             </div>
                             <a href="/" class="btn_add_cart"> Add to Cart </a>
                             <div class="flex gap-4 items-start pt-4">

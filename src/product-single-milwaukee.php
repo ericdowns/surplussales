@@ -34,7 +34,12 @@
     
     <div class="flex w-full mx-auto flex-col lg:flex-row px-5p py-20 gap-8">
         <h1 class="uppercase lg:hidden">Milwaukee Ribwound Assortment </h1>
-        <div class="flex gap-8 flex lg:w-[30%] w-full">
+
+
+
+
+        <!-- +++++++++++++++++++++++++++++ Product Image ++++++++++++++++++++++++++++-->
+        <div class="flex gap-8 flex xl:w-[30%] lg:w-[50%] w-full _bg-blue">
             <div class="flex w-full flex-col gap-3">
                 <div class="border flex w-full">
                     <img class="w-full h-auto block" src="./imgs/placeholder-milwaukee.png"> 
@@ -45,8 +50,13 @@
                 </div>
             </div>
         </div>
-        <div class="w-full gap-8 flex xl:w-[70%] lg:w-[70%] md:w-full lg:flex-row flex-col">
-            <div class="content_pricing flex flex-col lg:w-[60%] w-full">
+
+        <!-- +++++++++++++++++++++++++++++ Product Details Wrapper ++++++++++++++++++++++++++++-->
+        <div class="w-full gap-8 flex xl:w-[70%] lg:w-[50%] w-full xl:flex-row flex-col _bg-red">
+
+
+            <!-- +++++++++++++++++++++++++++++ Product Details ++++++++++++++++++++++++++++-->
+            <div class="content_pricing flex flex-col  xl:w-[60%] lg:w-full  lg:order-first order-last">
                 <h1 class="uppercase mb-5 hidden lg:block">Milwaukee Ribwound Assortment </h1>
                 <p class="pb-3">Part Number: <br>
                     <span class="text-black font-bold font-interstate text-2xl">(RWF) 12-96R/1ASRT</span></p>
@@ -62,7 +72,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="pricing-box flex lg:w-[40%] md:w-full content-start flex-wrap gap-3">
+
+
+                <!-- +++++++++++++++++++++++++++++ Pricing Box ++++++++++++++++++++++++++++-->
+                <div class="pricing-box flex xl:w-[40%] lg:w-full content-start flex-wrap gap-3">
                     <div class="flex flex-col gap-3 w-full">
                         <a href="/" class="flex items-center gap-1 justify-end group">
                             <p class="text-right text-stone-500 text-base font-medium leading-tight group-hover:text-black">Share this page</p>
@@ -87,14 +100,15 @@
                             </div>
                         </div>
                     </div>
-                </div> <!-- pricing-box -->
+                </div> <!-- Pricing Box -->
             </div>
-        </div> <!-- content_pricing -->
+        </div> <!-- Product Details Wrapper -->
     </div>
 
 
 
 
+    <!-- +++++++++++++++++++++++++++++ Featured Products ++++++++++++++++++++++++++++-->
     <div class="w-full mx-auto px-5p pt-0 pb-4">
         <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Featured Products</h6>
     </div>
