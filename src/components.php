@@ -11,6 +11,7 @@
 </head>
 
 <body class="bg-cream">
+    <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
     <?php include './header.php'; ?>
 
@@ -26,34 +27,39 @@
         <div class="prose prose-slate mx-auto mt-8 lg:prose-2xl w-full">
 
             <h1 class="border-b uppercase mb-0">Components</h1>
-
-
-
-
+            
             <div>
                 <h6 class="uppercase font-interstate border-b border-neutral-300">Filter Button</h6>
-
-                <div class="flex gap-4 py-3 mb-10 mt-3"> 
-
+                <div class="flex gap-4 pt-5 pb-20"> 
                     <a href="/" class="filterbtn border-2 border-black relative">
                         <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
                         <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
                         <div class="flex justify-center items-center absolute bg-red  text-white font-bold text-xs rounded-lg min-w-[20px] pt-1 pb-1 pr-2 pl-2 top-[-10px] right-[-9px] "> 1</div>
                     </a>
-
                     <a href="/" class="filterbtn">
                         <img class="w-[18px] h-[16px]" src="./imgs/icon_filter.svg"> 
                         <div class="text-stone-900 text-lg font-medium leading-normal">Filters</div>
                     </a>
                 </div>
-
-
             </div>
+
 
 
             <div>
                 <h6 class="uppercase font-interstate border-b border-neutral-300">Pricing Popup</h6>
+                <div class="pt-5 pb-20">
+                    <div class="relative flex p-5 w-72 bg-white rounded-md shadow-xl">
+                        <span class="p-0 m-0 text-stone-900 text-base font-medium">
+                            Disclaimer message about free shipping... habitant morbi tristique senectus et netus et malesuada
+                        </span>
+                        <!-- Triangle element -->
+                        <div class="tooltip-triangle bg-red"></div>
+                    </div>
+                </div>
             </div>
+
+
+
 
 
             <div>

@@ -79,7 +79,9 @@
             <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
                 <h6 class="border-b border-neutral-400 pb-2 mb-2">Misc Pages:</h6>
                 <a href="/components.php">Components</a>
-                <a href="/filter-slider-simple.php">Filter Slider Complex</a>
+                <a href="/filter-slider-simple.php">Filter Slider Simple</a>
+                <a href="/filter-slider-complex.php">Filter Slider Complex</a>
+
                 <a href="/search-dropdown.php">Search Dropdown</a>
                 <a href="/category-dropdown.php">Category Dropdown</a>
                 <a href="/mobile-menu.php">Mobile Menu</a>

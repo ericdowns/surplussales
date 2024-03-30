@@ -416,3 +416,18 @@
 	color:  #6F6E6A;
 
 }
+
+
+
+.tooltip-triangle::after {
+	content: '';
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	border-width: 6px;
+	border-style: solid;
+	border-color: white transparent transparent transparent; 
+	transform: translateX(-50%);
+}
+
+

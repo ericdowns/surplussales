@@ -57,7 +57,7 @@
 
     <!-- +++++++++++++++++++++++++++++ Mobile Menu Search Dropdown ++++++++++++++++++++++++++++-->
 
-    <div class="flex flex-col w-full max-w-[600px] mx-auto absolute top-0 bg-white h-screen hidden">
+    <div class="flex flex-col w-full max-w-[600px] mx-auto absolute top-0 bg-white h-screen">
         <div class="flex gap-3 w-full bg-black pl-4 pr-4 py-3">
             <div class="flex justify-end items-center">
                 <i class="text-red text-[28px] fa-sharp fa-regular fa-xmark"></i>

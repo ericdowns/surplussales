@@ -22,7 +22,9 @@
         <div class="flex lg:flex-row flex-col gap-10">
             <div class="lg:w-[65%] w-full">
                 <div class="w-full mx-auto pb-4">
-                    <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Your order was placed successfully.</h6>
+                    <h6 class="flex text-neutral-800 text-3xl font-bold font-interstate uppercase leading-tight">
+                        Your order was placed successfully. <img class="place-self-center h-8 ml-1 _bg-red"  src="./imgs/icon-circled-check-mark.svg">
+                    </h6>
                 </div>
                 <div class="confirmation_text w-full">
                     <div class="pb-6 mb-6 border-b border-neutral-400">
@@ -58,7 +60,7 @@
                 </div>
             </div>
             <div class="lg:w-[35%] w-full">
-               <div class="w-full mx-auto pb-4">
+             <div class="w-full mx-auto pb-4">
                 <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Summary</h6>
             </div>
             <?php include './components/summary_card_order_placed.php'; ?>
