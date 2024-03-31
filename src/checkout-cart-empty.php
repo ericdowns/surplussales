@@ -18,7 +18,7 @@
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
 
-    <div class="page_wrapper w-full mx-auto px-5p py-14 pb-56">
+    <div class="page_wrapper w-full mx-auto px-5p py-14 lg:pb-56 pb-20">
 
 
         <div class="flex lg:flex-row flex-col gap-10">

@@ -80,7 +80,7 @@
 
 <!-- +++++++++++++++++++++++++++++  Home CTA Cards ++++++++++++++++++++++++++++-->
 <div class="w-full mx-auto px-5p py-20  grid gap-3  grid-cols-1 lg:grid-cols-2">
-   <div class="relative m-0 flex h-80">
+   <div class="relative m-0 flex lg:h-80 h-96">
     <div class="z-10 h-full w-full overflow-hidden">
         <img src="./imgs/cta_card.png" class="animate-fade-in block h-full w-full scale-100 object-cover object-center" alt="" />
     </div>
@@ -91,7 +91,7 @@
         <div class="text-stone-100 text-lg font-bold leading-normal flex items-center"><img src="./imgs/icon_phone.svg" class="h-auto w-[20px] mr-2" />(402) 346-4750</div>
     </div>
 </div>
-<div class="relative m-0 flex h-80 w-full bg-stone-600">
+<div class="relative m-0 flex lg:h-80 h-96 w-full bg-stone-600">
     <div class="flex flex-col justify-end p-5 h-full w-full items-start gap-4">
         <img src="./imgs/icon_shipping_box_white.svg" class="block h-auto w-[35px]" />
         <div class="text-stone-100 text-2xl font-bold font-interstate uppercase leading-tight">
@@ -101,23 +101,29 @@
        <a class="btn_small hover:bg-white hover:text-black" href="/">Learn More</a>
    </div>
 </div>
-<div class="relative m-0 flex h-80 w-full bg-black">
+<div class="relative m-0 flex lg:h-80 h-96 w-full bg-black">
     <div class="flex flex-col justify-end p-5 h-full w-full items-start gap-4">
         <div class="text-stone-100 text-2xl font-bold font-interstate uppercase leading-loose leading-tight">
             Our staff is experienced and can talk with you about your unique needs.
         </div>
-        <div class="gap-3 pb-2 flex flex-col w-full">
-            <div class="text-stone-100 flex items-center"> <img src="./imgs/icon-circled-check-mark.svg" class="h-auto w-[20px] mr-2" /> 
-             <span class="font-bold"> $100-$299 orders </span> - Up to 10 lbs. shipped free
-         </div>
-         <div class="text-stone-100 flex items-center"> <img src="./imgs/icon-circled-check-mark.svg" class="h-auto w-[20px] mr-2" />
-            <span class="font-bold"> $100-$299 orders </span> - Up to 10 lbs. shipped free
+        
+        
+        <div class="gap-4 pb-2 flex flex-col w-full">
+            <div class="text-stone-100 flex _items-center lg:flex-row flex-col"> 
+                <span class="font-bold flex"> <img src="./imgs/icon_check-circle-white.svg" class="h-auto w-[20px] mr-2 place-self-start"/>  $100-$299 orders </span> 
+                <span> - Up to 10 lbs. shipped free </span>
+            </div>
+            <div class="text-stone-100 flex _items-center lg:flex-row flex-col"> 
+                <span class="font-bold flex"> <img src="./imgs/icon_check-circle-white.svg" class="h-auto w-[20px] mr-2 place-self-start"/>  $100-$299 orders </span> 
+                <span> - Up to 10 lbs. shipped free </span>
+            </div>
         </div>
+
+
+        <a class="btn_small hover:bg-white hover:text-black" href="/">Learn More</a>
     </div>
-    <a class="btn_small hover:bg-white hover:text-black" href="/">Learn More</a>
 </div>
-</div>
-<div class="relative m-0 flex h-80">
+<div class="relative m-0 flex lg:h-80 h-96">
     <div class="z-10 h-full w-full overflow-hidden">
         <img src="./imgs/cta_card_2.png" class="block h-full w-full scale-100 object-cover object-center" alt="" />
     </div>

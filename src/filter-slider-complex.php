@@ -16,47 +16,45 @@
 
     <style>
         :root {
-           --bg-btn: #C4C4C4;
-           --btn-color: #FFF;
-       }
+            --bg-btn: #C4C4C4;
+            --btn-color: #FFF;
+        }
 
-       #checkbox:checked ~ .btn-change::before {
-           transition: 0.3s;
-           transform: translateX(30px);
-       }
+        .btn-change {
+            background-color: var(--bg-btn);
+        }
 
-       .btn-change {
-         background-color: var(--bg-btn);
-     }
+        .btn-change::before {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: var(--btn-color);
+            transition: 0.3s;
+            transform: translateX(0);
+        }
 
-     .btn-change::before {
-       content: '';
-       display: block;
-       width: 30px;
-       height: 30px;
-       border-radius: 50%;
-       background-color: var(--btn-color);
-       transition: 0.3s;
-       transform: translateX(0);
-   }
+        #checkbox:checked ~ .btn-change {
+            --bg-btn: #EE433E; /* Red background */
+        }
 
-</style>
+        #checkbox:checked ~ .btn-change::before {
+            transform: translateX(30px);
+        }
 
+    </style>
 
-<script>
- const btn = document.querySelector('.btn-change');
-
- btn.addEventListener('click', () => {
-    if (document.getElementById('checkbox').checked) {
-       btn.style.setProperty('--bg-btn', '#F3EEEA');
-       btn.style.setProperty('--btn-color', '#EE433E');
-   } else {
-       btn.style.setProperty('--bg-btn', '#EE433E');
-       btn.style.setProperty('--btn-color', '#EE433E');
-   }
+    <script>
+        document.getElementById('checkbox').addEventListener('change', function() {
+            const btnChange = document.querySelector('.btn-change');
+            if (this.checked) {
+        btnChange.style.setProperty('--bg-btn', '#EE433E'); // Optional: Directly manipulate style for immediate changes
+    } else {
+        btnChange.style.setProperty('--bg-btn', '#C4C4C4'); // Reset back to original color
+    }
 });
 </script>
-
 
 
 
@@ -134,13 +132,13 @@
                     <p class="text-stone-500 text-base font-medium leading-tight">Ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                 </div>
                 <div class="btn-status">
-                   <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
-                   <label for="checkbox" class="btn-change flex items-center p-1 rounded-full w-[70px] h-10 cursor-pointer">
-                   </label>
-               </div>
-           </div>
-           <div class="w-full h-px border-b border-neutral-400 mb-10"></div>
-           <div class="flex items-center justify-between">
+                 <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
+                 <label for="checkbox" class="btn-change flex items-center p-1 rounded-full w-[70px] h-10 cursor-pointer">
+                 </label>
+             </div>
+         </div>
+         <div class="w-full h-px border-b border-neutral-400 mb-10"></div>
+         <div class="flex items-center justify-between">
             <a href="#" class="text-sky-700 text-lg font-bold leading-normal hover:text-neutral-800">Clear All</a>
             <button class="btn_add_cart w-52 hover:bg-white">Show Results</button>
         </div>

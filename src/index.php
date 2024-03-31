@@ -66,6 +66,9 @@
                 <a href="/product-single-resistor.php">Product Single | Carbon Composition Resistor </a>
                 <a href="/product-single-milwaukee.php">Product Single | Milwaukee Ribwound Assortment </a>
                 <a href="/table-product-carbon-resistors.php">Product Table | Carbon Composition Resistors</a>
+                <a href="/table-product-carbon-resistors-mobile.php">Product Table | Carbon Composition Resistors | Mobile</a>
+
+
                 <a href="/table-product-wire-resistors.php">Product Table | Wire Wound Resistors</a>
             </div>
 

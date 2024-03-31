@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title>Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
@@ -34,17 +34,16 @@
 
             <div class="form_wrapper flex flex-col gap-8">
                 <!-- Name -->
-                <div class="flex w-full gap-3">
-                    <div class="flex flex-col w-1/2">
+                <div class="flex w-full gap-3 lg:flex-row flex-col">
+                    <div class="flex flex-col lg:w-1/2 w-full">
                         <label class="labelstyle"> First Name</label>
                         <input class="inputstyle h-16" id="grid-first-name" type="text">
                     </div>
-                    <div class="flex flex-col w-1/2">
+                    <div class="flex flex-col lg:w-1/2 w-full">
                         <label class="labelstyle"> First Name</label>
                         <input class="inputstyle h-16" id="grid-first-name" type="text">
                     </div>
-                </div>
-                <!-- Email -->
+                </div>                <!-- Email -->
                 <div class="flex w-full gap-3">
                     <div class="flex flex-col w-full">
                         <label class="labelstyle"> Email Address</label>

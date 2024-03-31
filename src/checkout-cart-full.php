@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title>Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
@@ -17,7 +17,7 @@
 
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
-    <div class="page_wrapper w-full mx-auto px-5p py-14 pb-56">
+    <div class="page_wrapper w-full mx-auto px-5p py-14 lg:pb-56 pb-20">
         <div class="flex lg:flex-row flex-col gap-10">
             <div class="lg:w-[65%] w-full">
                 <div class="w-full mx-auto pb-4">
@@ -44,11 +44,15 @@
                     </div>
                 </div>
                 <?php for ($i = 0; $i < 4; $i++) {include $_SERVER['DOCUMENT_ROOT'] . '/components/product_cart_row.php'; } ?>
-                <div class="py-5">
-                    <label class="font-medium">Coupon Code</label>
-                    <input type="text" class="inputstyle w-64"> </input>
-                    <a class="btn_add_cart_sm hover:bg-cream" href="/">Apply</a>
+                
+
+                <div class="py-5 lg:flex-row flex-col lg:space-y-0 space-y-2">
+                    <label class="font-medium mb-3">Coupon Code</label>
+                    <input type="text" class="inputstyle lg:w-64 w-full"> </input>
+                    <a class="btn_add_cart_sm hover:bg-cream md:w-auto w-full lg:mt-0 mt-3" href="/">Apply</a>
                 </div>
+
+
             </div>
             <div class="lg:w-[35%] w-full">
                 <div class="w-full mx-auto pb-4">

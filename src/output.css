@@ -1892,6 +1892,14 @@ footer a:hover {
   margin-left: 0.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -2019,6 +2027,10 @@ footer a:hover {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .max-h-\[530px\] {
@@ -2195,6 +2207,19 @@ footer a:hover {
 
 .w-full {
   width: 100%;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .min-w-\[18px\] {
@@ -2444,6 +2469,16 @@ footer a:hover {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.place-self-start {
+  place-self: start;
 }
 
 .place-self-center {
@@ -2754,6 +2789,10 @@ footer a:hover {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-2 {
@@ -3706,7 +3745,23 @@ footer a:hover {
   transition-timing-function: linear;
 }
 
+@media (min-width: 640px) {
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:w-auto {
+    width: auto;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3737,6 +3792,10 @@ footer a:hover {
     margin-bottom: 0px;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3751,6 +3810,10 @@ footer a:hover {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-80 {
+    height: 20rem;
   }
 
   .lg\:w-1\/2 {
@@ -3809,6 +3872,22 @@ footer a:hover {
     width: 100%;
   }
 
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .lg\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
+  .lg\:w-64 {
+    width: 16rem;
+  }
+
   .lg\:min-w-\[400px\] {
     min-width: 400px;
   }
@@ -3831,6 +3910,10 @@ footer a:hover {
 
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -3890,6 +3973,12 @@ footer a:hover {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
   .lg\:self-end {
     align-self: flex-end;
   }
@@ -3902,6 +3991,10 @@ footer a:hover {
     padding: 1.5rem;
   }
 
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -3910,6 +4003,11 @@ footer a:hover {
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pb-0 {
@@ -3932,6 +4030,10 @@ footer a:hover {
     padding-top: 4rem;
   }
 
+  .lg\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -3941,8 +4043,22 @@ footer a:hover {
     line-height: 1.5rem;
   }
 
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:font-medium {
     font-weight: 500;
+  }
+
+  .lg\:text-inherit {
+    color: inherit;
   }
 }
 

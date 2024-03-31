@@ -16,44 +16,43 @@
 
     <style>
         :root {
-           --bg-btn: #C4C4C4;
-           --btn-color: #FFF;
-       }
+            --bg-btn: #C4C4C4;
+            --btn-color: #FFF;
+        }
 
-       #checkbox:checked ~ .btn-change::before {
-           transition: 0.3s;
-           transform: translateX(30px);
-       }
+        .btn-change {
+            background-color: var(--bg-btn);
+        }
 
-       .btn-change {
-         background-color: var(--bg-btn);
-     }
+        .btn-change::before {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: var(--btn-color);
+            transition: 0.3s;
+            transform: translateX(0);
+        }
 
-     .btn-change::before {
-       content: '';
-       display: block;
-       width: 30px;
-       height: 30px;
-       border-radius: 50%;
-       background-color: var(--btn-color);
-       transition: 0.3s;
-       transform: translateX(0);
-   }
+        #checkbox:checked ~ .btn-change {
+            --bg-btn: #EE433E; /* Red background */
+        }
 
-</style>
+        #checkbox:checked ~ .btn-change::before {
+            transform: translateX(30px);
+        }
 
+    </style>
 
-<script>
- const btn = document.querySelector('.btn-change');
-
- btn.addEventListener('click', () => {
-    if (document.getElementById('checkbox').checked) {
-       btn.style.setProperty('--bg-btn', '#F3EEEA');
-       btn.style.setProperty('--btn-color', '#EE433E');
-   } else {
-       btn.style.setProperty('--bg-btn', '#EE433E');
-       btn.style.setProperty('--btn-color', '#EE433E');
-   }
+    <script>
+        document.getElementById('checkbox').addEventListener('change', function() {
+            const btnChange = document.querySelector('.btn-change');
+            if (this.checked) {
+        btnChange.style.setProperty('--bg-btn', '#EE433E'); // Optional: Directly manipulate style for immediate changes
+    } else {
+        btnChange.style.setProperty('--bg-btn', '#C4C4C4'); // Reset back to original color
+    }
 });
 </script>
 
