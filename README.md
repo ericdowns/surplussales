@@ -1,6 +1,8 @@
 ## Sales Surplus
 
-Custom website build using Tailwind / HTML / PHP / CSS / JS 
+Custom website build using 
+Tailwind / HTML / PHP / CSS / JS 
+
 Coded with Love and Care ❤️ 💻
 
 ### Notes
