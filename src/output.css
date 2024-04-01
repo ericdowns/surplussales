@@ -693,6 +693,7 @@ h5 {
 p {
   font-size: 1rem;
   line-height: 1.5rem;
+  font-weight: 500;
   line-height: 1.5;
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
@@ -1424,12 +1425,12 @@ footer a:hover {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
   font-size: 1.125rem;
-  line-height: 1.75rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 1.5rem;
 }
 
 .btn_add_cart:hover {
@@ -1552,7 +1553,6 @@ footer a:hover {
   border-radius: 0px;
   border-style: none;
   font-size: 1.125rem;
-  line-height: 1.75rem;
   font-weight: 500;
   line-height: 1.25;
   --tw-text-opacity: 1;
@@ -1564,6 +1564,7 @@ footer a:hover {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   --tw-ring-offset-width: 0px;
+  line-height: 1.5rem;
 }
 
 .searchinputstyle:focus {
@@ -1580,11 +1581,11 @@ footer a:hover {
   margin-bottom: 0.5rem;
   text-align: left;
   font-size: 1.125rem;
-  line-height: 1.75rem;
   font-weight: 700;
   line-height: 1.5;
   --tw-text-opacity: 1;
   color: rgb(39 39 42 / var(--tw-text-opacity));
+  line-height: 1.5rem;
 }
 
 .searchitem {
@@ -1675,9 +1676,9 @@ footer a:hover {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
   padding: 1.25rem;
   font-size: 1.125rem;
-  line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  line-height: 1.5rem;
 }
 
 /* Define how the content changes at each breakpoint */
@@ -2202,10 +2203,6 @@ footer a:hover {
   min-width: 100%;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -2240,6 +2237,10 @@ footer a:hover {
 
 .max-w-screen-lg {
   max-width: 1024px;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .shrink-0 {
@@ -3235,6 +3236,10 @@ footer a:hover {
   margin-left: 5%;
 }
 
+.text-lg {
+  line-height: 1.5rem;
+}
+
 .labelstyle_absolute{
   position: absolute;
   top: 3px;
@@ -3583,6 +3588,10 @@ footer a:hover {
 
 .hover\:opacity-50:hover {
   opacity: 0.5;
+}
+
+.hover\:opacity-60:hover {
+  opacity: 0.6;
 }
 
 .hover\:duration-300:hover {
@@ -3965,6 +3974,10 @@ footer a:hover {
 
   .lg\:font-medium {
     font-weight: 500;
+  }
+
+  .lg\:text-lg {
+    line-height: 1.5rem;
   }
 }
 

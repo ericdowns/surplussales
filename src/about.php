@@ -21,7 +21,7 @@
 <body class="bg-cream">
 
     <div class="w-full mx-auto px-5p py-14 bg-black border-t border-stone-500">
-        <div class="text-center lg:text-left max-w-4xl">
+        <div class="text-center lg:text-left max-w-xl">
             <h1 class="text-stone-100 uppercase leading-12">Where the hard-to-find parts are found...and on hand</h1>
         </div>
     </div>
@@ -36,20 +36,20 @@
             <p class="text-center text-stone-500 text-lg font-medium leading-normal">Customers served.</p>
         </div>
         <div>
-         <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">200+</div>
-         <p class="text-center text-stone-500 text-lg font-medium leading-normal">Countries our parts have shipped to</p>
-     </div>
-     <div>
-         <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">6M+</div>
-         <p class="text-center text-stone-500 text-lg font-medium leading-normal">Cubic feet of warehouse</p>
-     </div>
- </div>
+           <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">200+</div>
+           <p class="text-center text-stone-500 text-lg font-medium leading-normal">Countries our parts have shipped to</p>
+       </div>
+       <div>
+           <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">6M+</div>
+           <p class="text-center text-stone-500 text-lg font-medium leading-normal">Cubic feet of warehouse</p>
+       </div>
+   </div>
 
- <div class="mx-5m mx-auto h-px border-b border-neutral-400 mb-0"></div>
+   <div class="mx-5m mx-auto h-px border-b border-neutral-400 mb-0"></div>
 
 
 
- <div class="w-full mx-auto px-5p py-20 grid gap-12   lg:grid-cols-2  grid-cols-1 bg-cream _[&_*]:border _[&_*]:border-red ">
+   <div class="w-full mx-auto px-5p py-20 grid gap-12   lg:grid-cols-2  grid-cols-1 bg-cream _[&_*]:border _[&_*]:border-red ">
     <div class="relative">
         <img src="./imgs/placeholder-about_building.jpg" class="w-full h-auto" alt="" />
     </div>

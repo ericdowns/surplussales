@@ -44,7 +44,7 @@
                     <input class="inputstyle h-16" id="grid-first-name" type="text">
                 </div>
                 <div class="flex flex-col lg:w-1/2 w-full">
-                    <label class="labelstyle"> First Name</label>
+                    <label class="labelstyle"> Last Name</label>
                     <input class="inputstyle h-16" id="grid-first-name" type="text">
                 </div>
             </div>

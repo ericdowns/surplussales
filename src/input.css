@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 
+
+
+
+@layer utilities {
+	.text-lg {
+		line-height: 1.5rem;
+	}
+}
+
+
 @layer base {
 	html {
 		@apply antialiased;
@@ -62,8 +72,9 @@
 		@apply 
 		text-stone-500
 		leading-normal
-		text-base; 
-
+		text-base
+		font-medium
+		; 
 	}
 
 
@@ -77,10 +88,6 @@
 		ease-in-out 
 		cursor-pointer;
 	}
-
-
-
-
 
 
 
@@ -119,8 +126,6 @@
 		hover:text-neutral-800;
 		;
 	}
-
-
 
 
 	.btn_add_cart {
@@ -199,11 +204,7 @@
 		transition 
 		duration-300
 		ease-in-out 
-		
-
 		;
-
-
 
 	}
 
