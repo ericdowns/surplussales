@@ -82,7 +82,7 @@
 
                 <a href="/search-dropdown.php">Search Dropdown</a>
                 <a href="/category-dropdown.php">Category Dropdown</a>
-                <a href="/mobile-menu.php">Mobile Navigation Menu</a>
+                <a href="/mobile-menu-open.php">Mobile Navigation Menu</a>
                 <a href="/category-menu.php">Mobile Search Menu</a>
 
 
