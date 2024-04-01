@@ -11,9 +11,11 @@
 </head>
 
 <body class="bg-cream">
-    <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
+
+
 
     <?php include './header.php'; ?>
+    <?php include './header-mobile.php'; ?>
 
     <div class="flex px-5p py-20 border border-slate-300 flex justify-center items-center text-center ">
 

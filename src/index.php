@@ -12,12 +12,8 @@
 
 
 
-<div class="breakpoint-indicator"></div>
-
-<!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
-
 <?php include './header.php'; ?>
-
+<?php include './header-mobile.php'; ?>
 
 <body class="bg-cream">
 
@@ -86,8 +82,8 @@
 
                 <a href="/search-dropdown.php">Search Dropdown</a>
                 <a href="/category-dropdown.php">Category Dropdown</a>
-                <a href="/mobile-menu.php">Mobile Menu</a>
-
+                <a href="/mobile-menu.php">Mobile Navigation Menu</a>
+                <a href="/category-menu.php">Mobile Search Menu</a>
 
 
             </div>

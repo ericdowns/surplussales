@@ -16,7 +16,7 @@
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
     <?php include './header.php'; ?>
-
+    <?php include './header-mobile.php'; ?>
 
     <img src="./imgs/placeholder-faq.jpg" class="block h-[375px] w-full object-cover object-center" alt="" />
     <div class="grid lg:grid-cols-12 gap-16 w-full mx-auto px-5p py-20 pb-56">

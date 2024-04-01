@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 
-<!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
-<div class="breakpoint-indicator"></div>
-
 <body class="bg-cream">
-    <?php include './header.php'; ?>
 
+
+    <?php include './header.php'; ?>
+    <?php include './header-mobile.php'; ?>
 
 
     <div class="w-full px-5p">

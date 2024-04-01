@@ -9,9 +9,14 @@
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
 </head>
-<div class="breakpoint-indicator"></div>
-<!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
+
+
+
+
 <?php include './header.php'; ?>
+<?php include './header-mobile.php'; ?>
+
+
 <body class="bg-cream">
 
 

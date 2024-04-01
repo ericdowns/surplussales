@@ -12,7 +12,11 @@
 
 <div class="breakpoint-indicator"></div>
 <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
+
+
+
 <?php include './header-home.php'; ?>
+<?php include './header-mobile.php'; ?>
 
 <body class="bg-cream">
 
@@ -27,22 +31,22 @@
             </div>
             <div>
                 <div class="flex h-14 items-center bg-white rounded overflow-hidden shadow  min-w-fit   xl:min-w-[600px]">
-                   <input class="searchinputstyle" id="search" type="text" placeholder="Search keyword, item, model or part #">
-                   <button class="bg-white text-gray-900 focus:outline-none w-16 h-full flex items-center justify-center hover:opacity-50 hover:ease-in-out hover:duration-300"> <i class="fa-regular fa-magnifying-glass"></i>
-                   </button>
-               </div>
-               <div class="flex flex-wrap pt-6 gap-2 hover:[&>a]:bg-cream hover:[&>a]:text-black ">
-                  <div class="flex justify-center items-center
-                  px-2.5 py-1.5 text-center text-red lg:text-base text-sm font-bold leading-none hover:*:bg-black">Popular: </div>
-                  <a href="/" class="btn_small">Capacitors</a> <a href="/" class="btn_small">Resistors</a> <a href="/" class="btn_small">Transformers</a> <a href="/" class="btn_small">Motors & Solenoids</a>
-              </div>
+                 <input class="searchinputstyle" id="search" type="text" placeholder="Search keyword, item, model or part #">
+                 <button class="bg-white text-gray-900 focus:outline-none w-16 h-full flex items-center justify-center hover:opacity-50 hover:ease-in-out hover:duration-300"> <i class="fa-regular fa-magnifying-glass"></i>
+                 </button>
+             </div>
+             <div class="flex flex-wrap pt-6 gap-2 hover:[&>a]:bg-cream hover:[&>a]:text-black ">
+              <div class="flex justify-center items-center
+              px-2.5 py-1.5 text-center text-red lg:text-base text-sm font-bold leading-none hover:*:bg-black">Popular: </div>
+              <a href="/" class="btn_small">Capacitors</a> <a href="/" class="btn_small">Resistors</a> <a href="/" class="btn_small">Transformers</a> <a href="/" class="btn_small">Motors & Solenoids</a>
           </div>
       </div>
   </div>
+</div>
 
 
-  <!-- +++++++++++++++++++++++++++++ Product Categories Cards ++++++++++++++++++++++++++++-->
-  <div class="w-full mx-auto px-5p pt-10 pb-4">
+<!-- +++++++++++++++++++++++++++++ Product Categories Cards ++++++++++++++++++++++++++++-->
+<div class="w-full mx-auto px-5p pt-10 pb-4">
     <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Recently Viewed Products</h6>
 </div>
 
@@ -80,7 +84,7 @@
 
 <!-- +++++++++++++++++++++++++++++  Home CTA Cards ++++++++++++++++++++++++++++-->
 <div class="w-full mx-auto px-5p py-20  grid gap-3  grid-cols-1 lg:grid-cols-2">
-   <div class="relative m-0 flex lg:h-80 h-96">
+ <div class="relative m-0 flex lg:h-80 h-96">
     <div class="z-10 h-full w-full overflow-hidden">
         <img src="./imgs/cta_card.png" class="animate-fade-in block h-full w-full scale-100 object-cover object-center" alt="" />
     </div>
@@ -95,11 +99,11 @@
     <div class="flex flex-col justify-end p-5 h-full w-full items-start gap-4">
         <img src="./imgs/icon_shipping_box_white.svg" class="block h-auto w-[35px]" />
         <div class="text-stone-100 text-2xl font-bold font-interstate uppercase leading-tight">
-           Surplus Sales strives to use the lowest  cost shipping for every order. 
-       </div>
-       <p class="text-stone-300 text-lg font-medium leading-tight">We calculate shipping after we’ve received and verified your order because skipping the flat rates and average charges save you money. </p>
-       <a class="btn_small hover:bg-white hover:text-black" href="/">Learn More</a>
-   </div>
+         Surplus Sales strives to use the lowest  cost shipping for every order. 
+     </div>
+     <p class="text-stone-300 text-lg font-medium leading-tight">We calculate shipping after we’ve received and verified your order because skipping the flat rates and average charges save you money. </p>
+     <a class="btn_small hover:bg-white hover:text-black" href="/">Learn More</a>
+ </div>
 </div>
 <div class="relative m-0 flex lg:h-80 h-96 w-full bg-black">
     <div class="flex flex-col justify-end p-5 h-full w-full items-start gap-4">

@@ -12,6 +12,13 @@
 
 <body class="bg-cream">
 
+
+
+
+    <?php include './header.php'; ?>
+    <?php include './header-mobile.php'; ?>
+
+    
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
     <style>
@@ -57,8 +64,6 @@
 </script>
 
 
-
-<?php include './header.php'; ?>
 
 <div class="flex px-5p py-20 border border-slate-300 flex justify-center items-center text-center ">
 
@@ -132,13 +137,13 @@
                     <p class="text-stone-500 text-base font-medium leading-tight">Ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                 </div>
                 <div class="btn-status">
-                 <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
-                 <label for="checkbox" class="btn-change flex items-center p-1 rounded-full w-[70px] h-10 cursor-pointer">
-                 </label>
-             </div>
-         </div>
-         <div class="w-full h-px border-b border-neutral-400 mb-10"></div>
-         <div class="flex items-center justify-between">
+                   <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
+                   <label for="checkbox" class="btn-change flex items-center p-1 rounded-full w-[70px] h-10 cursor-pointer">
+                   </label>
+               </div>
+           </div>
+           <div class="w-full h-px border-b border-neutral-400 mb-10"></div>
+           <div class="flex items-center justify-between">
             <a href="#" class="text-sky-700 text-lg font-bold leading-normal hover:text-neutral-800">Clear All</a>
             <button class="btn_add_cart w-52 hover:bg-white">Show Results</button>
         </div>

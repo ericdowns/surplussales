@@ -11,9 +11,10 @@
 </head>
 
 <body class="bg-cream">
-    <div class="breakpoint-indicator"></div>
-    <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
+
+
     <?php include './header.php'; ?>
+    <?php include './header-mobile.php'; ?>
 
 
     <img src="./imgs/placeholder-support.jpg" class="block h-[375px] w-full object-cover object-center" alt="" />

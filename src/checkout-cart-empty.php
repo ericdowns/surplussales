@@ -13,7 +13,8 @@
 <body class="bg-cream">
 
     <?php include './header.php'; ?>
-    <div class="breakpoint-indicator"></div>
+    <?php include './header-mobile.php'; ?>
+
 
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 

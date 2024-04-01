@@ -11,11 +11,12 @@
 </head>
 
 <body class="bg-cream">
-    <div class="breakpoint-indicator"></div>
+
+
+
     <?php include './header.php'; ?>
-
-    <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
-
+    <?php include './header-mobile.php'; ?>
+    
 
     <div class="w-full px-5p">
         <div class="breadcrumbs">       

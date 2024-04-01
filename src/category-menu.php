@@ -12,7 +12,8 @@
 
 <body class="bg-cream">
 
-    <?php include './header-mobile.php'; ?>
+    <?php include './header.php'; ?>
+    <?php include './header-category.php'; ?>
 
     <div class="flex px-5p py-20 border border-slate-300 flex justify-center items-center text-center h-full">
         <p>Mobile Menu</p>

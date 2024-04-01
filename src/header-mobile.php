@@ -1,4 +1,4 @@
-<header class="w-full bg-black">
+<header class="w-full bg-black lg:hidden">
 
     <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
@@ -52,42 +52,6 @@
         </div>
     </div>
 
-
-
-
-    <!-- +++++++++++++++++++++++++++++ Mobile Menu Search Dropdown ++++++++++++++++++++++++++++-->
-
-    <div class="flex flex-col w-full max-w-[600px] mx-auto absolute top-0 bg-white h-screen hidden">
-        <div class="flex gap-3 w-full bg-black pl-4 pr-4 py-3">
-            <div class="flex justify-end items-center">
-                <i class="text-red text-[28px] fa-sharp fa-regular fa-xmark"></i>
-            </div>
-            <div class="flex h-14 w-full items-center bg-white rounded overflow-hidden">
-                <input class="searchinputstyle text-base" id="search" type="text" placeholder="Search keyword, item, model or part #">
-                <button class="text-gray-900 focus:outline-none w-16 h-full flex items-center justify-center">
-                  <i class="fa-regular fa-magnifying-glass"></i>
-              </button>
-          </div>
-      </div>
-      <div class="flex flex-col items-start bg-white w-full bg-white pb-5 [&>a]:border-b [&>a]:border-b [&>a]:px-4 ">
-          <span class="p-3 text-stone-500 text-base font-medium">Trending Search</span>
-          <a class="searchitem" href="/">
-            <span class="text-stone-900 text-lg font-medium">Hardware, Tools, Prototyping & Construction Aids</span> 
-            <span class="text-neutral-400 text-base font-medium">2,334</span>
-        </a>
-        <a class="searchitem" href="/">
-            <span class="text-stone-900 text-lg font-medium">Hardware, Tools, Prototyping & Construction Aids</span> 
-            <span class="text-neutral-400 text-base font-medium">2,334</span>
-        </a>
-        <a class="searchitem" href="/">
-            <span class="text-stone-900 text-lg font-medium">Hardware, Tools, Prototyping & Construction Aids</span> 
-            <span class="text-neutral-400 text-base font-medium">2,334</span>
-        </a>
-        <a class="searchitem" href="/">
-            <span class="text-stone-900 text-lg font-medium">Hardware, Tools, Prototyping & Construction Aids</span> 
-            <span class="text-neutral-400 text-base font-medium">2,334</span>
-        </a>
-    </div> <!-- form_wrapper -->
 
 
 

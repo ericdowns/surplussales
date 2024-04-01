@@ -26,33 +26,7 @@
 
 
 
-    <!-- +++++++++++++++++++++++++++++ Mobile Menu Navigation ++++++++++++++++++++++++++++-->
-
-    <div class="bg-black h-full w-[90%] absolute top-0 hidden">
-        <div class="flex justify-end py-4 border-b border-stone-600 pr-5">
-            <i class="text-red text-[28px]  fa-sharp fa-regular fa-xmark"></i>
-        </div>
-        <div class="flex flex-col pl-4 [&>a]:text-white [&>a]:py-4 [&>a]:border-b 
-            [&>a]:border-stone-600 [&>a]:font-medium [&>a]:text-base [&>a:last]:border-b-0">
-            <a href="/">All Categories</a>  
-            <a href="/">A - Z Listing of Products</a>  
-            <a href="/">About</a>  
-            <a href="/">FAQ</a>  
-            <a href="/">Support</a>  
-            <a href="/">Register</a>  
-            <a href="/">Login</a>  
-        </div>
-        <div class="flex w-full bg-stone-600 py-8 px-4 flex-col gap-4 -mt-[1px]">
-            <a class="text-stone-100 flex" href="/"><span class="mr-2 w-2 h-2 flex bg-amber-400 rounded-full place-self-center"></span> 
-                FREE Ground Shipping! On orders over $100 
-                <i class="group-hover:text-amber-400 group-hover:border-amber-400 ml-1 flex text-[7px] inline-flex justify-center items-center border border-white border text-white rounded-full w-[13px] h-[13px] fa-sharp fa-solid fa-info place-self-center"></i>
-            </a>
-            <a class="text-stone-100 pl-4" href="/">help@surplussales.com</a>
-            <a class="text-stone-100 pl-4" href="/">(402) 346-4750</a>
-        </div>
-    </div>
-
-
+    
 
 
     <!-- +++++++++++++++++++++++++++++ Mobile Menu Search Dropdown ++++++++++++++++++++++++++++-->
