@@ -12,11 +12,8 @@
 
 <!-- <style> *{  outline: 1px solid rgba(187, 187, 187, 0.3); } </style> -->
 
-
 <body class="bg-cream">
     <?php include './header.php'; ?>
-
-
 
     <div class="w-full px-5p max-w-screen-lg">
         <div class="breadcrumbs">       
@@ -96,10 +93,7 @@
 
 
 
-
-
     <!--++++++++++++++++ Using this to apply a tab to table row +++++++++++++++++++++++++-->
-
     <script>
         document.querySelector('tbody').addEventListener('click', function(e) {
             var closestTr = e.target.closest('tr');

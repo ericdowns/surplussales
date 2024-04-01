@@ -33,7 +33,7 @@
                 <a href="/home.php">Home</a>
                 <a href="/about.php">About</a>
                 <a href="/faqs.php">FAQs</a>
-                <a href="/general.php">General Page</a>
+                <!-- <a href="/general.php">General Page</a> -->
 
             </div>
 
@@ -55,7 +55,6 @@
                 <a href="/resistors.php">All Categories | Resistors</a>
                 <a href="/resistors-wire-wound.php">All Categories | Wire Wound Resisters</a>
                 <a href="/resistors-carbon-composition-resistors.php">All Categories | Carbon Composition Resistors</a>
-                <a href="/products-resistors-wire-wound.php">Products | Wire Wound Resisters - Matched Sets </a>
             </div>
 
 
@@ -63,13 +62,13 @@
             <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">
                 <h6 class="border-b border-neutral-400 pb-2 mb-2">Product Pages:</h6>
 
-                <a href="/product-single-resistor.php">Product Single | Carbon Composition Resistor </a>
-                <a href="/product-single-milwaukee.php">Product Single | Milwaukee Ribwound Assortment </a>
                 <a href="/table-product-carbon-resistors.php">Product Table | Carbon Composition Resistors</a>
                 <a href="/table-product-carbon-resistors-mobile.php">Product Table | Carbon Composition Resistors | Mobile</a>
-
-
                 <a href="/table-product-wire-resistors.php">Product Table | Wire Wound Resistors</a>
+                <a href="/products-resistors-wire-wound.php">Product Grid | Wire Wound Resisters - Matched Sets </a>
+                <a href="/product-single-resistor.php">Product Single | Carbon Composition Resistor </a>
+                <a href="/product-single-milwaukee.php">Product Single | Milwaukee Ribwound Assortment </a>
+
             </div>
 
             <div class="flex flex-col gap-3 border rounded border-neutral-400 p-5">

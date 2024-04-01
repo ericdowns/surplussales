@@ -61,31 +61,6 @@
 
 
 
-
-            <div>
-                <h6 class="uppercase font-interstate border-b border-neutral-300">Filter Dropdown (Simple)</h6>
-            </div>
-
-
-            <div>
-                <h6 class="uppercase font-interstate border-b border-neutral-300">Filter Dropdown (Complex)</h6>
-            </div>
-
-
-            <div>
-                <h6 class="uppercase font-interstate border-b border-neutral-300">Search Dropdown</h6>
-            </div>
-
-
-            <div>
-                <h6 class="uppercase font-interstate border-b border-neutral-300">Categories Dropdown</h6>
-            </div>
-
-
-
-
-
-
         </div>
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title>Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
@@ -26,7 +26,7 @@
 
 
 
-    <div class="mx-5p lg:pt-16 pt-10 pb-6 mb-6 ">
+    <div class="mx-5p lg:pt-16 pt-10 pb-6 mb-6 border-b border-neutral-400">
         <div class="flex justify-between  lg:flex-row flex-col gap-5">
             <div class="grow-[2] flex justify-between  flex-col  w-full max-w-5xl">
                 <div>
