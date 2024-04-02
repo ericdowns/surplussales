@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title> Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
@@ -137,13 +137,13 @@
                     <p class="text-stone-500 text-base font-medium leading-tight">Ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
                 </div>
                 <div class="btn-status">
-                   <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
-                   <label for="checkbox" class="btn-change flex items-center p-1 rounded-full w-[70px] h-10 cursor-pointer">
-                   </label>
-               </div>
-           </div>
-           <div class="w-full h-px border-b border-neutral-400 mb-10"></div>
-           <div class="flex items-center justify-between">
+                 <input type="checkbox" name="checkbox" id="checkbox" class="hidden" />
+                 <label for="checkbox" class="btn-change flex items-center p-1 rounded-full w-[70px] h-10 cursor-pointer">
+                 </label>
+             </div>
+         </div>
+         <div class="w-full h-px border-b border-neutral-400 mb-10"></div>
+         <div class="flex items-center justify-between">
             <a href="#" class="text-sky-700 text-lg font-bold leading-normal hover:text-neutral-800">Clear All</a>
             <button class="btn_add_cart w-52 hover:bg-white">Show Results</button>
         </div>

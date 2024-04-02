@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title> Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
@@ -36,20 +36,20 @@
             <p class="text-center text-stone-500 text-lg font-medium leading-normal">Customers served.</p>
         </div>
         <div>
-           <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">200+</div>
-           <p class="text-center text-stone-500 text-lg font-medium leading-normal">Countries our parts have shipped to</p>
-       </div>
-       <div>
-           <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">6M+</div>
-           <p class="text-center text-stone-500 text-lg font-medium leading-normal">Cubic feet of warehouse</p>
-       </div>
-   </div>
+         <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">200+</div>
+         <p class="text-center text-stone-500 text-lg font-medium leading-normal">Countries our parts have shipped to</p>
+     </div>
+     <div>
+         <div class="text-center text-neutral-800 text-5xl font-bold font-interstate uppercase leading-10 pb-3">6M+</div>
+         <p class="text-center text-stone-500 text-lg font-medium leading-normal">Cubic feet of warehouse</p>
+     </div>
+ </div>
 
-   <div class="mx-5m mx-auto h-px border-b border-neutral-400 mb-0"></div>
+ <div class="mx-5m mx-auto h-px border-b border-neutral-400 mb-0"></div>
 
 
 
-   <div class="w-full mx-auto px-5p py-20 grid gap-12   lg:grid-cols-2  grid-cols-1 bg-cream _[&_*]:border _[&_*]:border-red ">
+ <div class="w-full mx-auto px-5p py-20 grid gap-12   lg:grid-cols-2  grid-cols-1 bg-cream _[&_*]:border _[&_*]:border-red ">
     <div class="relative">
         <img src="./imgs/placeholder-about_building.jpg" class="w-full h-auto" alt="" />
     </div>

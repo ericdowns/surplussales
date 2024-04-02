@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Surplus Sales of Nebraska </title>
+    <title> Surplus Sales of Nebraska </title>
     <style> @import url("https://use.typekit.net/mbi6zih.css"); </style>
     <link rel="stylesheet" href="https://kit.fontawesome.com/51895c5ec0.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="lg:w-[35%] w-full">
-             <div class="w-full mx-auto pb-4">
+               <div class="w-full mx-auto pb-4">
                 <h6 class=" text-neutral-800 text-3xl font-bold font-interstate uppercase leading-loose">Summary</h6>
             </div>
             <?php include './components/summary_card_order_placed.php'; ?>
