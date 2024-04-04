@@ -45,4 +45,11 @@
         </div>
     </div>
     <a href="/" class="btn_add_cart"> Checkout </a>
+
+
+    <div class="bg-amber-50 border border-amber-400 p-3 rounded mt-5" role="alert">
+        <p class="font-bold text-amber-700">Inventory Notice</p>
+        <p class="text-amber-700 text-sm">Some text here about inventory posibly being low or out of stock.</p>
+    </div>
+
 </div> <!-- summary_box -->
