@@ -59,6 +59,25 @@
 
 
 
+
+            <div>
+                <h6 class="uppercase font-interstate border-b border-neutral-300">Share Popup</h6>
+                <div class="pt-5 pb-20">
+                    <div class="relative flex _p-5 w-72 bg-white rounded-md shadow-xl">
+                        <div class="flex flex-col text-base *:p-3 w-full *:cursor-pointer">
+                            <a class="border-b border-neutral-300 w-full hover:bg-cream no-underline" href="#"> <i class="mr-1 fa-fw fa-regular fa-envelope"></i> Share via Email</a>
+                            <a class="border-b border-neutral-300 w-full hover:bg-cream no-underline" href="#"> <i class="mr-1 fa-fw fa-brands fa-facebook-f"></i> Share on Facebook</a>
+                            <a class="border-b border-neutral-300 w-full hover:bg-cream no-underline" href="#"><i class="mr-1 fa-fw fa-sharp fa-regular fa-link"></i> Share Link</a>
+                        </div>
+                        <!-- Triangle element -->
+                        <div class="tooltip-triangle bg-red"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </div>
 
 
